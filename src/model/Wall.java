@@ -2,8 +2,8 @@ package model;
 
 public class Wall extends Stationary {
 
-    public Wall(Entity currentPosition) {
-        super(currentPosition, false);
+    public Wall(int xCorrdinate, int yCoordinate) {
+        super(xCorrdinate, yCoordinate, false);
     }
 
     @Override

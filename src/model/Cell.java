@@ -2,8 +2,8 @@ package model;
 
 public class Cell extends Stationary {
 
-    public Cell(Entity currentPosition) {
-        super(currentPosition, true);
+    public Cell(int xCorrdinate, int yCoordinate) {
+        super(xCorrdinate, yCoordinate, true);
     }
 
     @Override

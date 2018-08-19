@@ -1,19 +1,29 @@
 package model;
 
 public abstract class Entity {
+    //current
+    private int xCorrdinate;
+    private int yCoordinate;
 
-    private Entity currentPosition = null;
-
-    public Entity(Entity currentPosition) {
-        this.currentPosition = currentPosition;
+    public Entity(int xCorrdinate, int yCoordinate) {
+        this.xCorrdinate = xCorrdinate;
+        this.yCoordinate = yCoordinate;
     }
 
-    public Entity getCurrentPosition() {
-        return currentPosition;
+    public int getxCorrdinate() {
+        return xCorrdinate;
     }
 
-    public void setCurrentPosition(Entity currentPosition) {
-        this.currentPosition = currentPosition;
+    public void setxCorrdinate(int xCorrdinate) {
+        this.xCorrdinate = xCorrdinate;
+    }
+
+    public int getyCoordinate() {
+        return yCoordinate;
+    }
+
+    public void setyCoordinate(int yCoordinate) {
+        this.yCoordinate = yCoordinate;
     }
 
     public abstract void draw();

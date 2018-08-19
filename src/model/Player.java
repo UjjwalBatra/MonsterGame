@@ -1,12 +1,13 @@
 package model;
 
 public class Player extends Movable {
-    public Player(Entity currentPosition) {
-        super(currentPosition);
+
+    public Player(int xCorrdinate, int yCoordinate) {
+        super(xCorrdinate, yCoordinate);
     }
 
     @Override
-    public void move(Entity oldPosition, Entity newPosition) {
+    public void move(int xCoordinateOld, int yCoordinateOld, int xCoordinateNew, int yCoordinateNew) {
 
     }
 

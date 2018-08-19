@@ -2,12 +2,12 @@ package model;
 
 public class Monster extends Movable {
 
-    public Monster(Entity currentPosition) {
-        super(currentPosition);
+    public Monster(int xCorrdinate, int yCoordinate) {
+        super(xCorrdinate, yCoordinate);
     }
 
     @Override
-    public void move(Entity oldPosition, Entity newPosition) {
+    public void move(int xCoordinateOld, int yCoordinateOld, int xCoordinateNew, int yCoordinateNew) {
 
     }
 
