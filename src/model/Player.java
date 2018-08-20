@@ -6,13 +6,14 @@ public class Player extends Movable {
         super(xCorrdinate, yCoordinate);
     }
 
+
     @Override
-    public void move(int xCoordinateOld, int yCoordinateOld, int xCoordinateNew, int yCoordinateNew) {
+    public void move(Map map, int xCoordinateOld, int yCoordinateOld, int xCoordinateNew, int yCoordinateNew) {
 
     }
 
     @Override
     public void draw() {
-
+        System.out.println("P");
     }
 }

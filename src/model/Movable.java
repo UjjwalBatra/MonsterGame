@@ -6,6 +6,6 @@ public abstract class Movable extends Entity {
         super(xCorrdinate, yCoordinate);
     }
 
-    public abstract void move(int xCoordinateOld, int yCoordinateOld, int xCoordinateNew, int yCoordinateNew);
+    public abstract void move(Map map, int xCoordinateOld, int yCoordinateOld, int xCoordinateNew, int yCoordinateNew);
 
 }
