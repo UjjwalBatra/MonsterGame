@@ -8,17 +8,19 @@ public class Player extends Movable {
 
 
     @Override
-    public void move(Map map, int xCoordinateOld, int yCoordinateOld, int xCoordinateNew, int yCoordinateNew) {
+    public void move(Map map, int xCoordinateNew, int yCoordinateNew) {
 
         // moving player forward on the map
-        map.getMap()[xCoordinateNew][yCoordinateNew] = map.getMap()[xCoordinateOld][yCoordinateOld];
+        map.getMap()[xCoordinateNew][yCoordinateNew] = this;
 
-        //setting new coordinates of the player
+        //making old position of player a cell again
+        map.getMap()[getxCorrdinate()][getyCoordinate()] = new Cell(getxCorrdinate(),getyCoordinate());
+
+        //updating coordinates of the player
         this.setxCorrdinate(xCoordinateNew);
         this.setyCoordinate(yCoordinateNew);
 
-        //making old position of player a cell again
-        map.getMap()[xCoordinateOld][yCoordinateOld] = new Cell(xCoordinateOld,yCoordinateOld);
+
     }
 
     @Override
