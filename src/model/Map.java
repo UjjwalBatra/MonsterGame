@@ -22,7 +22,7 @@ public class Map {
         return map;
     }
 
-    //priniting current position of player/monster/map on console
+    //printing current position of player/monster/map on console
     public void drawMap() {
         for (int i = 0; i < map.length; i++) {
             for (int j = 0; j < map[i].length; j++) {

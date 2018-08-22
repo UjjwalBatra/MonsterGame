@@ -8,8 +8,24 @@ public class Player extends Movable {
 
 
     @Override
-    public void move(Map map, int xCoordinateNew, int yCoordinateNew) {
+    public void move(Map map, String direction) {
 
+        int xCoordinateNew;
+        int yCoordinateNew;
+
+        if (direction.equals("left")){
+            xCoordinateNew = getxCorrdinate();
+            yCoordinateNew = getyCoordinate() - 1;
+        } else if (direction.equals("right")){
+            xCoordinateNew = getxCorrdinate();
+            yCoordinateNew = getyCoordinate() + 1;
+        } else if (direction.equals("up")){
+            xCoordinateNew = getxCorrdinate() + 1;
+            yCoordinateNew = getyCoordinate();
+        } else {
+            xCoordinateNew = getxCorrdinate();
+            yCoordinateNew = getyCoordinate() - 1;
+        }
         // moving player forward on the map
         map.getMap()[xCoordinateNew][yCoordinateNew] = this;
 
