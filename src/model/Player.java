@@ -2,10 +2,9 @@ package model;
 
 public class Player extends Movable {
 
-    public Player(int xCorrdinate, int yCoordinate) {
-        super(xCorrdinate, yCoordinate);
+    public Player(Map map, int xCorrdinate, int yCoordinate) {
+        super(map, xCorrdinate, yCoordinate);
     }
-
 
     @Override
     public void move(Map map, String direction) {
