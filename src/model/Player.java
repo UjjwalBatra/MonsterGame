@@ -17,7 +17,7 @@ public class Player extends Movable {
             yCoordinateNew = getyCoordinate() - 1;
         } else if (direction.equals("right")){
             xCoordinateNew = getxCorrdinate();
-            yCoordinateNew = getyCoordinate() - 1;
+            yCoordinateNew = getyCoordinate() + 1;
         } else if (direction.equals("up")){
             xCoordinateNew = getxCorrdinate() - 1;
             yCoordinateNew = getyCoordinate();
