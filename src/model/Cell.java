@@ -8,6 +8,6 @@ public class Cell extends Stationary {
 
     @Override
     public void draw() {
-
+        System.out.print("=");
     }
 }

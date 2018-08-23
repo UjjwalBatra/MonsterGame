@@ -28,6 +28,7 @@ public class Map {
             for (int j = 0; j < map[i].length; j++) {
                 map[i][j].draw();
             }
+            System.out.println();
         }
     }
 }

@@ -8,6 +8,6 @@ public class Wall extends Stationary {
 
     @Override
     public void draw() {
-
+        System.out.print("W");
     }
 }

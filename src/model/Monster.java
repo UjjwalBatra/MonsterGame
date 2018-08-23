@@ -14,6 +14,6 @@ public class Monster extends Movable {
 
     @Override
     public void draw() {
-
+        System.out.print("M");
     }
 }
