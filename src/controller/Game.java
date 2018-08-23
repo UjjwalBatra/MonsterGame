@@ -17,5 +17,17 @@ public class Game {
         System.out.println("testing");
         map.drawMap();
 
+        Runnable runnable = new Runnable() {
+
+            @Override
+            public void run() {
+                //direction will be determined by monster itself
+                monster.move(map,null);
+            }
+        };
+
+        runnable.run();
+
+
     }
 }
