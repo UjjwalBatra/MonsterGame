@@ -4,8 +4,10 @@
  * @author - ujjwalbatra on 22/08/18
  *
  */
-package model;
+package model.unittest;
 
+import model.Cell;
+import model.Map;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

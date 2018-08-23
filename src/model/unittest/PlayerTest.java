@@ -6,8 +6,11 @@
  *
  */
 
-package model;
+package model.unittest;
 
+import model.Map;
+import model.Movable;
+import model.Player;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -26,7 +29,7 @@ class PlayerTest {
 
     @Test
     public void checkplayerposition(){
-        assertTrue(player.getxCorrdinate() == 1);
+        assertTrue(false);
     }
 
     @AfterEach
