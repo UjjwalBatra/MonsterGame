@@ -7,6 +7,10 @@ public class Monster extends Movable {
     }
 
 
+    public void start()
+    {
+
+    }
     @Override
     public void move(Map map, String direction) {
 

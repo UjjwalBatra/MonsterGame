@@ -22,7 +22,7 @@ public class Game {
             @Override
             public void run() {
                 //direction will be determined by monster itself
-                monster.move(map,null);
+                ((Monster) monster).start();
             }
         };
 
