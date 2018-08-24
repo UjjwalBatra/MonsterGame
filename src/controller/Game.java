@@ -12,15 +12,15 @@ public class Game extends Frame implements KeyListener
 {
     Label l;
     TextArea area;
-    Movable player;
-    Movable monster;
-    Map map;
+    public static Movable player;
+    public static Movable monster;
+    public static Map map;
 
     public Game()
     {
         map = new Map();
-        player = new Player(map, 0,0);
-        monster = new Monster(map, 4,4);
+        player = new Player(0,0);
+        monster = new Monster(4,4);
 
         l = new Label();
         l.setBounds(20,50,100,20);
@@ -40,26 +40,26 @@ public class Game extends Frame implements KeyListener
         int key = e.getKeyCode();
         if(key == KeyEvent.VK_LEFT)
         {
-            player.move(map, "left");
+            player.move("left");
             //System.out.println("Left arrow pressed");
             map.drawMap();
 
         }
         else if(key == KeyEvent.VK_RIGHT)
         {
-            player.move(map, "right");
+            player.move( "right");
             map.drawMap();
 
         }
         else if(key == KeyEvent.VK_UP)
         {
-            player.move(map, "up");
+            player.move( "up");
             map.drawMap();
 
         }
         else if(key == KeyEvent.VK_DOWN)
         {
-            player.move(map, "down");
+            player.move("down");
             map.drawMap();
 
         }
@@ -82,12 +82,13 @@ public class Game extends Frame implements KeyListener
 
         new Game();
         System.out.println("testing");
+
         Runnable runnable = new Runnable() {
 
             @Override
             public void run() {
                 //direction will be determined by monster itself
-//                ((Monster) monster).start();
+                ((Monster) monster).start();
             }
         };
 

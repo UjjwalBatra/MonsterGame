@@ -1,13 +1,15 @@
 package model;
 
+import controller.Game;
+
 public class Player extends Movable {
 
-    public Player(Map map, int xCorrdinate, int yCoordinate) {
-        super(map, xCorrdinate, yCoordinate);
+    public Player(int xCorrdinate, int yCoordinate) {
+        super(xCorrdinate, yCoordinate);
     }
 
     @Override
-    public void move(Map map, String direction) {
+    public void move(String direction) {
 
         int xCoordinateNew = 0;
         int yCoordinateNew = 0;
@@ -30,13 +32,13 @@ public class Player extends Movable {
         if (xCoordinateNew < 0 || yCoordinateNew < 0 || xCoordinateNew > 8 || yCoordinateNew > 8 ) return;
 
         //check if new coordinate is a cell
-        if (map.getMap()[xCoordinateNew][yCoordinateNew] instanceof Wall) return;
+        if (Game.map.getMap()[xCoordinateNew][yCoordinateNew] instanceof Wall) return;
 
         // moving player forward on the map
-        map.getMap()[xCoordinateNew][yCoordinateNew] = this;
+        Game.map.getMap()[xCoordinateNew][yCoordinateNew] = this;
 
         //making old position of player a cell again
-        map.getMap()[getxCorrdinate()][getyCoordinate()] = new Cell(getxCorrdinate(),getyCoordinate());
+        Game.map.getMap()[getxCorrdinate()][getyCoordinate()] = new Cell(getxCorrdinate(),getyCoordinate());
 
         //updating coordinates of the player
         this.setxCorrdinate(xCoordinateNew);
