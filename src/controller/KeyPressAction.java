@@ -8,7 +8,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-public class KeyAction extends Frame implements KeyListener {
+public class KeyPressAction extends Frame implements KeyListener {
 
     Label l;
     TextArea area;
@@ -16,7 +16,7 @@ public class KeyAction extends Frame implements KeyListener {
     Movable monster;
     Map map;
 
-    public KeyAction(Map map, Movable monster, Movable player)
+    public KeyPressAction(Map map, Movable monster, Movable player)
     {
         this.map = map;
         this.player = player;
