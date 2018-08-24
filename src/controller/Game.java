@@ -88,5 +88,17 @@ public class Game extends Frame implements KeyListener
         System.out.println("testing");
         //map.drawMap();
 
+        Runnable runnable = new Runnable() {
+
+            @Override
+            public void run() {
+                //direction will be determined by monster itself
+                ((Monster) monster).start();
+            }
+        };
+
+        runnable.run();
+
+
     }
 }
