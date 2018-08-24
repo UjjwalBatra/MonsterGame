@@ -25,7 +25,7 @@ class PlayerTest {
     @BeforeEach
     void setUp() {
         map = new Map();
-        player = new Player(0, 0);
+        player = new Player(map, 0, 0);
     }
 
     @Test
@@ -34,7 +34,7 @@ class PlayerTest {
         player.setxCorrdinate(4);
         player.setyCoordinate(4);
 
-        player.move("right");
+        player.move(map, "right");
 
         assertEquals(5, player.getyCoordinate());
         assertEquals(4, player.getxCorrdinate());
@@ -42,22 +42,22 @@ class PlayerTest {
         assertTrue(map.getMap()[4][4] instanceof Cell);
         assertTrue(map.getMap()[4][5] instanceof Player);
 
-        player.move("left");
-        player.move("left");
+        player.move(map, "left");
+        player.move(map, "left");
 
         assertTrue(map.getMap()[4][4] instanceof Cell);
         assertTrue(map.getMap()[4][5] instanceof Cell);
         assertTrue(map.getMap()[4][3] instanceof Player);
 
-        player.move("right");
-        player.move("down");
+        player.move(map, "right");
+        player.move(map, "down");
 
         assertTrue(map.getMap()[4][3] instanceof Cell);
         assertTrue(map.getMap()[4][4] instanceof Cell);
         assertTrue(map.getMap()[5][4] instanceof Player);
 
-        player.move("up");
-        player.move("up");
+        player.move(map, "up");
+        player.move(map, "up");
 
         assertTrue(map.getMap()[5][4] instanceof Cell);
         assertTrue(map.getMap()[4][4] instanceof Cell);
@@ -67,7 +67,7 @@ class PlayerTest {
     @Test
     public void checkIfPlayerRunOutOfMap(){
 
-        player.move("left");
+        player.move(map,"left");
         assertEquals(0, player.getyCoordinate());
         assertEquals(0, player.getxCorrdinate());
     }
@@ -75,15 +75,15 @@ class PlayerTest {
     @Test
     public void checkIfPlayerRunIntoWall(){
 
-        player.move("right");
-        player.move("down");
+        player.move(map,"right");
+        player.move(map,"down");
 
         assertEquals(1, player.getyCoordinate());
         assertEquals(0, player.getxCorrdinate());
 
-        player.move("down");
-        player.move("down");
-        player.move("down");
+        player.move(map,"down");
+        player.move(map,"down");
+        player.move(map,"down");
 
         assertEquals(1, player.getyCoordinate());
         assertEquals(0, player.getxCorrdinate());

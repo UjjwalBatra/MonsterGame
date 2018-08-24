@@ -2,8 +2,8 @@ package model;
 
 public class Monster extends Movable {
 
-    public Monster(int xCorrdinate, int yCoordinate) {
-        super(xCorrdinate, yCoordinate);
+    public Monster(Map map, int xCorrdinate, int yCoordinate) {
+        super(map, xCorrdinate, yCoordinate);
     }
 
 
@@ -12,7 +12,7 @@ public class Monster extends Movable {
 
     }
     @Override
-    public void move(String direction) {
+    public void move(Map map, String direction) {
 
     }
 
