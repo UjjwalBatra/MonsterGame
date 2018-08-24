@@ -16,9 +16,12 @@ public class Game extends Frame implements KeyListener
     Movable monster;
     Map map;
 
-    Game()
+    public Game()
     {
-        Create();
+        map = new Map();
+        player = new Player(map, 0,0);
+        monster = new Monster(map, 4,4);
+
         l = new Label();
         l.setBounds(20,50,100,20);
         area = new TextArea();
@@ -73,13 +76,6 @@ public class Game extends Frame implements KeyListener
 
     }
 
-    public void Create()
-    {
-        map = new Map();
-        player = new Player(map, 0,0);
-        monster = new Monster(map, 4,4);
-
-    }
 
 
     public static void main(String[] args) {
