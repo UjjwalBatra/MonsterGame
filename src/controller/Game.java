@@ -15,6 +15,7 @@ public class Game extends Frame implements KeyListener
     Movable player;
     Movable monster;
     Map map;
+
     Game()
     {
         Create();
@@ -30,6 +31,7 @@ public class Game extends Frame implements KeyListener
         setLayout(null);
         setVisible(true);
     }
+
     public void keyPressed(KeyEvent e)
     {
         int key = e.getKeyCode();
@@ -76,24 +78,20 @@ public class Game extends Frame implements KeyListener
         map = new Map();
         player = new Player(map, 0,0);
         monster = new Monster(map, 4,4);
-        map.drawMap();
+
     }
 
 
     public static void main(String[] args) {
-        //Map map = new Map();
-        //Movable player = new Player(map, 0,0);
-        //Movable monster = new Monster(map, 4,4);
+
         new Game();
         System.out.println("testing");
-        //map.drawMap();
-
         Runnable runnable = new Runnable() {
 
             @Override
             public void run() {
                 //direction will be determined by monster itself
-                ((Monster) monster).start();
+//                ((Monster) monster).start();
             }
         };
 
