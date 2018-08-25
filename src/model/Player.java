@@ -42,6 +42,8 @@ public class Player extends Movable {
         this.setxCorrdinate(xCoordinateNew);
         this.setyCoordinate(yCoordinateNew);
 
+        map.drawMap();
+
     }
 
     @Override

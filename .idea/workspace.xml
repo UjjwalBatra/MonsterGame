@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7bd1ab39-2dd4-4f2e-8e80-10e00bbc6863" name="Default Changelist" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/KeyPressAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/KeyPressAction.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,14 +38,14 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2866" />
+          <entry key="JAVA" value="2870" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2866" />
+          <entry key="java" value="2870" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
@@ -72,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/KeyPressAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="330">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -172,8 +173,8 @@
         <option value="$PROJECT_DIR$/src/model/unittest/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/model/Movable.java" />
         <option value="$PROJECT_DIR$/src/model/Player.java" />
-        <option value="$PROJECT_DIR$/src/controller/KeyPressAction.java" />
         <option value="$PROJECT_DIR$/src/controller/Game.java" />
+        <option value="$PROJECT_DIR$/src/controller/KeyPressAction.java" />
       </list>
     </option>
   </component>
@@ -226,21 +227,6 @@
               <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="unittest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -264,6 +250,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="copyright.profiles" />
   </component>
   <component name="RecentsManager">
@@ -379,7 +366,7 @@
       <workItem from="1535020591789" duration="1453000" />
       <workItem from="1535085014735" duration="2631000" />
       <workItem from="1535111619732" duration="913000" />
-      <workItem from="1535119045860" duration="565000" />
+      <workItem from="1535119045860" duration="1114000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1534598513350</created>
@@ -459,7 +446,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35325000" />
+    <option name="totallyTimeSpent" value="35874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,8 +641,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/KeyPressAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="330">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>

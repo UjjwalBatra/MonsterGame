@@ -15,7 +15,10 @@ public class Game
         Movable player = new Player(map, 0 , 0);
         Movable monster = new Monster(map, 4, 4);
 
+        map.drawMap();
+
         new KeyPressAction(map, monster, player);
+
 
         Runnable runnable = new Runnable() {
 

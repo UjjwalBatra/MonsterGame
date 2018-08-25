@@ -14,6 +14,7 @@ public class Monster extends Movable {
     @Override
     public void move(Map map, String direction) {
 
+        map.drawMap();
     }
 
     @Override
