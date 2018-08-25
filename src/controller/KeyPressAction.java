@@ -42,25 +42,24 @@ public class KeyPressAction extends Frame implements KeyListener {
         {
             player.move(map, "left");
             //System.out.println("Left arrow pressed");
-            map.drawMap();
 
         }
         else if(key == KeyEvent.VK_RIGHT)
         {
             player.move(map, "right");
-            map.drawMap();
+
 
         }
         else if(key == KeyEvent.VK_UP)
         {
             player.move(map, "up");
-            map.drawMap();
+
 
         }
         else if(key == KeyEvent.VK_DOWN)
         {
             player.move(map, "down");
-            map.drawMap();
+
 
         }
 
