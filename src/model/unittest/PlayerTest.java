@@ -20,8 +20,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PlayerTest {
 
-    Movable player;
     Map map;
+    Movable player;
+
     @BeforeEach
     void setUp() {
         map = new Map();
