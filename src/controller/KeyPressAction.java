@@ -13,12 +13,11 @@ public class KeyPressAction extends Frame implements KeyListener {
     Label l;
     TextArea area;
     Movable player;
-    Movable monster;
 
-    public KeyPressAction(Map map, Movable monster, Movable player)
+    public KeyPressAction(Movable player)
     {
         this.player = player;
-        this.monster = monster;
+
 
         l = new Label();
         l.setBounds(20,50,100,20);

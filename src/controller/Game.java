@@ -13,11 +13,11 @@ public class Game
 
         Map map = Map.getPlayingArea();
         Movable player = new Player(0 , 0);
-        Movable monster = new Monster(4, 4);
+        Movable monster = Monster.getMonster();
 
         map.drawMap();
 
-        new KeyPressAction(map, monster, player);
+        new KeyPressAction(player);
 
 
         Runnable runnable = new Runnable() {
