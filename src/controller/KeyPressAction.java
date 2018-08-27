@@ -14,11 +14,9 @@ public class KeyPressAction extends Frame implements KeyListener {
     TextArea area;
     Movable player;
     Movable monster;
-    Map map;
 
     public KeyPressAction(Map map, Movable monster, Movable player)
     {
-        this.map = map;
         this.player = player;
         this.monster = monster;
 
@@ -40,25 +38,25 @@ public class KeyPressAction extends Frame implements KeyListener {
         int key = e.getKeyCode();
         if(key == KeyEvent.VK_LEFT)
         {
-            player.move(map, "left");
+            player.move("left");
             //System.out.println("Left arrow pressed");
 
         }
         else if(key == KeyEvent.VK_RIGHT)
         {
-            player.move(map, "right");
+            player.move("right");
 
 
         }
         else if(key == KeyEvent.VK_UP)
         {
-            player.move(map, "up");
+            player.move("up");
 
 
         }
         else if(key == KeyEvent.VK_DOWN)
         {
-            player.move(map, "down");
+            player.move("down");
 
 
         }

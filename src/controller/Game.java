@@ -11,9 +11,9 @@ public class Game
 
     public static void main(String[] args) {
 
-        Map map = new Map();
-        Movable player = new Player(map, 0 , 0);
-        Movable monster = new Monster(map, 4, 4);
+        Map map = Map.getPlayingArea();
+        Movable player = new Player(0 , 0);
+        Movable monster = new Monster(4, 4);
 
         map.drawMap();
 

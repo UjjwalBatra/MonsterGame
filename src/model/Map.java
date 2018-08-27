@@ -3,6 +3,9 @@ package model;
 public class Map {
     private Entity map[][];
 
+
+    private static final Map playingArea = new Map();
+
     public Map() {
         map = new Entity[9][9];
         addEdgesAndWalls();
@@ -30,5 +33,9 @@ public class Map {
             }
             System.out.println();
         }
+    }
+
+    public static Map getPlayingArea() {
+        return playingArea;
     }
 }

@@ -20,7 +20,7 @@ class MapTest {
 
     @BeforeEach
     public void setUp() {
-        map = new Map();
+        map = Map.getPlayingArea();
     }
 
     @Test
