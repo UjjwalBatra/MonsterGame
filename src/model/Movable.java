@@ -3,6 +3,8 @@ package model;
 import model.exception.ObjectHittingWallException;
 import model.exception.ObjectOutOfMapException;
 
+import static java.lang.Thread.sleep;
+
 public abstract class Movable extends Entity {
 
 
@@ -11,7 +13,7 @@ public abstract class Movable extends Entity {
         Map.getPlayingArea().getMap()[xCorrdinate][yCoordinate] = this;
     }
 
-    public void move(String direction) throws ObjectOutOfMapException, ObjectHittingWallException {
+    public void move(String direction) throws ObjectOutOfMapException, ObjectHittingWallException, InterruptedException {
 
         int xCoordinateNew = 0;
         int yCoordinateNew = 0;
@@ -68,6 +70,7 @@ public abstract class Movable extends Entity {
 
         Map.getPlayingArea().drawMap();
 
+        Thread.sleep(500);
     }
 
 }

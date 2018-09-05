@@ -1,5 +1,6 @@
 package controller;
 
+
 import model.Movable;
 import model.exception.ObjectHittingWallException;
 import model.exception.ObjectOutOfMapException;
@@ -53,7 +54,9 @@ public class KeyPressAction extends Frame implements KeyListener {
         } catch (ObjectOutOfMapException ex){
 
         } catch (ObjectHittingWallException ex){
-            
+
+        } catch (InterruptedException ex){
+
         }
     }
 
