@@ -14,7 +14,6 @@ public class Monster extends Movable {
         //        call shortest path
         //    call move
 
-        //todo : fuck you pasi
     }
 
 
