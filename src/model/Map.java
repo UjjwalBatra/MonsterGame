@@ -2,8 +2,6 @@ package model;
 
 public class Map {
     private Entity map[][];
-
-
     private static final Map playingArea = new Map();
 
     public Map() {

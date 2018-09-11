@@ -3,8 +3,6 @@ package model;
 import model.exception.ObjectHittingWallException;
 import model.exception.ObjectOutOfMapException;
 
-import static java.lang.Thread.sleep;
-
 public abstract class Movable extends Entity {
 
 
@@ -18,26 +16,28 @@ public abstract class Movable extends Entity {
         int xCoordinateNew = 0;
         int yCoordinateNew = 0;
 
-        if (direction.equals("left")){
+        if (direction.equals("left")) {
             xCoordinateNew = getxCorrdinate() - 1;
             yCoordinateNew = getyCoordinate();
-        } else if (direction.equals("right")){
+        } else if (direction.equals("right")) {
             xCoordinateNew = getxCorrdinate() + 1;
             yCoordinateNew = getyCoordinate();
-        } else if (direction.equals("up")){
+        } else if (direction.equals("up")) {
             xCoordinateNew = getxCorrdinate();
             yCoordinateNew = getyCoordinate() - 1;
-        } else if (direction.equals("down")){
+        } else if (direction.equals("down")) {
             xCoordinateNew = getxCorrdinate();
             yCoordinateNew = getyCoordinate() + 1;
         } else return;
 
-        if ((getxCorrdinate() == 0&& getyCoordinate() == 4 ) && (xCoordinateNew == -1&& yCoordinateNew  == 4)) {
+
+        //         with these conditions, player/monster will pass through the middle block on map on each side
+        if ((getxCorrdinate() == 0 && getyCoordinate() == 4) && (xCoordinateNew == -1 && yCoordinateNew == 4)) {
             xCoordinateNew = 8;
             yCoordinateNew = 4;
         }
 
-        if ((getxCorrdinate() == 8 && getyCoordinate() == 4) && (xCoordinateNew == 9 && yCoordinateNew  == 4)) {
+        if ((getxCorrdinate() == 8 && getyCoordinate() == 4) && (xCoordinateNew == 9 && yCoordinateNew == 4)) {
             xCoordinateNew = 0;
             yCoordinateNew = 4;
         }
@@ -53,16 +53,18 @@ public abstract class Movable extends Entity {
         }
 
         //check if it moved out of the map
-        if (xCoordinateNew < 0 || yCoordinateNew < 0 || xCoordinateNew > 8 || yCoordinateNew > 8 ) throw new ObjectOutOfMapException("Object Running Out of the Map");
+        if (xCoordinateNew < 0 || yCoordinateNew < 0 || xCoordinateNew > 8 || yCoordinateNew > 8)
+            throw new ObjectOutOfMapException("Object Running Out of the Map");
 
         //check if new coordinate is a cell
-        if (Map.getPlayingArea().getMap()[xCoordinateNew][yCoordinateNew] instanceof Wall) throw  new ObjectHittingWallException("Object is trying to enter a wall.");
+        if (Map.getPlayingArea().getMap()[xCoordinateNew][yCoordinateNew] instanceof Wall)
+            throw new ObjectHittingWallException("Object is trying to enter a wall.");
 
         // moving it forward on the map
         Map.getPlayingArea().getMap()[yCoordinateNew][xCoordinateNew] = this;
 
         //making old position of player a cell again
-        Map.getPlayingArea().getMap()[getyCoordinate()][getxCorrdinate()] = new Cell(getxCorrdinate(),getyCoordinate());
+        Map.getPlayingArea().getMap()[getyCoordinate()][getxCorrdinate()] = new Cell(getxCorrdinate(), getyCoordinate());
 
         //updating coordinates
         this.setxCorrdinate(xCoordinateNew);
