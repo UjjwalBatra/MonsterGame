@@ -6,14 +6,13 @@
  *
  */
 
-package server.model.unittest;
-
-import server.model.Cell;
-import server.model.Map;
-import server.model.Movable;
-import server.model.Player;
-import server.exception.ObjectHittingWallException;
-import server.exception.ObjectOutOfMapException;
+package model.test;
+import exception.ObjectHittingWallException;
+import exception.ObjectOutOfMapException;
+import model.Cell;
+import model.Map;
+import model.Movable;
+import model.Player;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -41,7 +40,7 @@ class PlayerTest {
            player.move("right");
 
            assertEquals(5, player.getYCoordinate());
-           assertEquals(4, player.getXCorrdinate());
+           assertEquals(4, player.getXCoordinate());
 
            assertTrue(map.getMap()[4][4] instanceof Cell);
            assertTrue(map.getMap()[4][5] instanceof Player);
@@ -79,7 +78,7 @@ class PlayerTest {
         });
 
         assertEquals(0, player.getYCoordinate());
-        assertEquals(0, player.getXCorrdinate());
+        assertEquals(0, player.getXCoordinate());
     }
 
     @Test
@@ -90,7 +89,7 @@ class PlayerTest {
             player.move("down");
 
             assertEquals(1, player.getYCoordinate());
-            assertEquals(0, player.getXCorrdinate());
+            assertEquals(0, player.getXCoordinate());
 
             player.move("down");
             player.move("down");
@@ -98,7 +97,7 @@ class PlayerTest {
         });
 
         assertEquals(1, player.getYCoordinate());
-        assertEquals(0, player.getXCorrdinate());
+        assertEquals(0, player.getXCoordinate());
 
     }
 

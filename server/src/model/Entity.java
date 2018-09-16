@@ -1,6 +1,6 @@
-package server.model;
+package model;
 
-public abstract class Entity {
+public abstract class Entity implements RemotePlayer{
     //current
     private int xCoordinate;
     private int yCoordinate;
@@ -10,7 +10,10 @@ public abstract class Entity {
         this.yCoordinate = yCoordinate;
     }
 
-    public int getXCorrdinate() {
+    public Entity() {
+    }
+
+    public int getXCoordinate() {
         return xCoordinate;
     }
 

@@ -1,54 +1,55 @@
-package server.model;
+package model;
 
-import server.exception.ObjectHittingWallException;
-import server.exception.ObjectOutOfMapException;
-import server.exception.PlayerDeadException;
+import exception.ObjectHittingWallException;
+import exception.ObjectOutOfMapException;
+import exception.PlayerDeadException;
 
 public abstract class Movable extends Entity {
-
-
-    public Movable(int xCorrdinate, int yCoordinate) {
-        super(xCorrdinate, yCoordinate);
-        Map.getPlayingArea().getMap()[xCorrdinate][yCoordinate] = this;
+    public Movable() {
     }
 
-    public void move(String direction) throws ObjectOutOfMapException, ObjectHittingWallException, InterruptedException, PlayerDeadException {
+    public Movable(int xCoordinate, int yCoordinate) {
+        super(xCoordinate, yCoordinate);
+        Map.getPlayingArea().getMap()[xCoordinate][yCoordinate] = this;
+    }
+
+    synchronized public void move(String direction) throws Exception{
 
         int xCoordinateNew = 0;
         int yCoordinateNew = 0;
 
         if (direction.equals("left")) {
-            xCoordinateNew = getXCorrdinate() - 1;
+            xCoordinateNew = getXCoordinate() - 1;
             yCoordinateNew = getYCoordinate();
         } else if (direction.equals("right")) {
-            xCoordinateNew = getXCorrdinate() + 1;
+            xCoordinateNew = getXCoordinate() + 1;
             yCoordinateNew = getYCoordinate();
         } else if (direction.equals("up")) {
-            xCoordinateNew = getXCorrdinate();
+            xCoordinateNew = getXCoordinate();
             yCoordinateNew = getYCoordinate() - 1;
         } else if (direction.equals("down")) {
-            xCoordinateNew = getXCorrdinate();
+            xCoordinateNew = getXCoordinate();
             yCoordinateNew = getYCoordinate() + 1;
         } else return;
 
 
         //with these conditions, player/monster will pass through the middle block on map on each side
-        if ((getXCorrdinate() == 0 && getYCoordinate() == 4) && (xCoordinateNew == -1 && yCoordinateNew == 4)) {
+        if ((getXCoordinate() == 0 && getYCoordinate() == 4) && (xCoordinateNew == -1 && yCoordinateNew == 4)) {
             xCoordinateNew = 8;
             yCoordinateNew = 4;
         }
 
-        if ((getXCorrdinate() == 8 && getYCoordinate() == 4) && (xCoordinateNew == 9 && yCoordinateNew == 4)) {
+        if ((getXCoordinate() == 8 && getYCoordinate() == 4) && (xCoordinateNew == 9 && yCoordinateNew == 4)) {
             xCoordinateNew = 0;
             yCoordinateNew = 4;
         }
 
-        if ((getXCorrdinate() == 4 && getYCoordinate() == 0) && (xCoordinateNew == 4 && yCoordinateNew == -1)) {
+        if ((getXCoordinate() == 4 && getYCoordinate() == 0) && (xCoordinateNew == 4 && yCoordinateNew == -1)) {
             xCoordinateNew = 4;
             yCoordinateNew = 8;
         }
 
-        if ((getXCorrdinate() == 4 && getYCoordinate() == 8) && (xCoordinateNew == 4 && yCoordinateNew == 9)) {
+        if ((getXCoordinate() == 4 && getYCoordinate() == 8) && (xCoordinateNew == 4 && yCoordinateNew == 9)) {
             xCoordinateNew = 4;
             yCoordinateNew = 0;
         }
@@ -68,7 +69,7 @@ public abstract class Movable extends Entity {
         Entity nextCell = Map.getPlayingArea().getMap()[xCoordinateNew][yCoordinateNew];
 
         if (this instanceof Player && nextCell instanceof Monster) {
-            Monster.getMonster().eat(getYCoordinate(), getXCorrdinate());
+            Monster.getMonster().eat(getYCoordinate(), getXCoordinate());
             Map.getPlayingArea().drawMap();
 
             //initiate player death sequence if any
@@ -82,7 +83,7 @@ public abstract class Movable extends Entity {
         Map.getPlayingArea().getMap()[yCoordinateNew][xCoordinateNew] = this;
 
         //making old position of player a cell again
-        Map.getPlayingArea().getMap()[getYCoordinate()][getXCorrdinate()] = new Cell(getXCorrdinate(), getYCoordinate());
+        Map.getPlayingArea().getMap()[getYCoordinate()][getXCoordinate()] = new Cell(getXCoordinate(), getYCoordinate());
 
         //updating coordinates
         this.setxCoordinate(xCoordinateNew);

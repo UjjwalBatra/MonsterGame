@@ -5,7 +5,7 @@
  *
  */
 
-package server.exception;
+package exception;
 
 public class PlayerDeadException extends Exception{
     public PlayerDeadException(String message) {

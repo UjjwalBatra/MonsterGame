@@ -2,26 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd1ab39-2dd4-4f2e-8e80-10e00bbc6863" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/server/exception/PlayerDeadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/StartUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/controller/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/model/RemotePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonsterGame/controller/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonsterGame/model/Cell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonsterGame/model/Entity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonsterGame/model/Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonsterGame/model/Monster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonsterGame/model/Movable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonsterGame/model/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonsterGame/model/Stationary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonsterGame/model/Wall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonsterGame/model/unittest/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MonsterGame/model/unittest/PlayerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/controller/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/controller/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/controller/KeyPressAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/controller/KeyPressAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/model/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/model/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/model/Movable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/unittest/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/model/unittest/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/controller/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/controller/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/controller/KeyPressAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/KeyPressAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/exception/ObjectHittingWallException.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/exception/ObjectHittingWallException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/exception/ObjectOutOfMapException.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/exception/ObjectOutOfMapException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/exception/PlayerDeadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/exception/PlayerDeadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/model/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/model/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/model/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/model/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Movable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/model/Stationary.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Stationary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/model/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/model/unittest/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/test/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/model/unittest/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/test/PlayerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,41 +36,42 @@
     <session id="771853904">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.0" value="6" />
-          <entry key="project.open.time.1" value="8" />
+          <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="6" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="form" value="2" />
-          <entry key="java" value="86" />
+          <entry key="java" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="2" />
-          <entry key="JAVA" value="86" />
+          <entry key="JAVA" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5220" />
+          <entry key="JAVA" value="5706" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5220" />
+          <entry key="java" value="5706" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
@@ -82,73 +85,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/server/model/Movable.java">
+        <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/model/Stationary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/model/Entity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/controller/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/controller/KeyPressAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/model/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#995#996#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/model/unittest/PlayerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -160,6 +103,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="JavaFXApplication" />
+        <option value="Singleton" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -168,6 +113,7 @@
     <findStrings>
       <find>monster</find>
       <find>map</find>
+      <find>corr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,13 +148,29 @@
         <option value="$PROJECT_DIR$/src/trial.form" />
         <option value="$PROJECT_DIR$/src/Server/model/Monster.java" />
         <option value="$PROJECT_DIR$/src/cerver/model/Monster.java" />
-        <option value="$PROJECT_DIR$/src/server/model/Monster.java" />
         <option value="$PROJECT_DIR$/src/server/exception/PlayerDeadException.java" />
-        <option value="$PROJECT_DIR$/src/server/model/Player.java" />
-        <option value="$PROJECT_DIR$/src/server/controller/Game.java" />
         <option value="$PROJECT_DIR$/src/server/model/unittest/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/server/controller/Game.java" />
+        <option value="$PROJECT_DIR$/src/server/model/RemotePlayer.java" />
         <option value="$PROJECT_DIR$/src/server/controller/KeyPressAction.java" />
+        <option value="$PROJECT_DIR$/src/server/model/Monster.java" />
+        <option value="$PROJECT_DIR$/src/server/model/Stationary.java" />
+        <option value="$PROJECT_DIR$/src/server/model/Wall.java" />
+        <option value="$PROJECT_DIR$/src/server/model/Cell.java" />
+        <option value="$PROJECT_DIR$/src/server/model/Server.java" />
         <option value="$PROJECT_DIR$/src/server/model/Movable.java" />
+        <option value="$PROJECT_DIR$/src/server/model/Entity.java" />
+        <option value="$PROJECT_DIR$/src/server/model/Player.java" />
+        <option value="$PROJECT_DIR$/src/server/controller/Server.java" />
+        <option value="$PROJECT_DIR$/src/client/StartUp.java" />
+        <option value="$PROJECT_DIR$/src/model/test/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/server/model/test/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/serverSide/src/model/test/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/server/src/model/test/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/server/src/model/test/MapTest.java" />
+        <option value="$PROJECT_DIR$/server/src/controller/Game.java" />
+        <option value="$PROJECT_DIR$/server/src/model/Wall.java" />
+        <option value="$PROJECT_DIR$/server/src/model/Cell.java" />
       </list>
     </option>
   </component>
@@ -218,10 +180,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
-    <option name="height" value="1027" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -239,34 +200,13 @@
             <path>
               <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="MonsterGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="MonsterGame" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MonsterGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MonsterGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MonsterGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
@@ -281,9 +221,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,14 +232,15 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537063057426" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537079055852" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/client" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
@@ -309,13 +250,17 @@
       <recent name="model" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="client" />
+      <recent name="server.controller" />
       <recent name="server" />
       <recent name="Server" />
       <recent name="model.unittest" />
-      <recent name="model" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Server/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -330,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StartGame">
+  <component name="RunManager" selected="JUnit.model.test in Server">
     <configuration name="StartGame" type="Application" factoryName="Application" singleton="true">
       <option name="MAIN_CLASS_NAME" value="server.controller.Game" />
       <module name="MonsterGame" />
@@ -346,31 +291,13 @@
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="model in MonsterGame" run_configuration_type="JUnit" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.checkIfPlayerRunIntoWall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MonsterGame" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="server.model.unittest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="server.model.unittest" />
-      <option name="MAIN_CLASS_NAME" value="server.model.unittest.PlayerTest" />
-      <option name="METHOD_NAME" value="checkIfPlayerRunIntoWall" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <dir value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UnitTest" type="JUnit" factoryName="JUnit">
       <module name="MonsterGame" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="directory" />
       <option name="PARAMETERS" value="" />
-      <dir value="$PROJECT_DIR$" />
+      <dir value="$PROJECT_DIR$/server/" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -385,16 +312,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="model.test in Server" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model.test" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.StartGame" />
       <item itemvalue="JUnit.UnitTest" />
-      <item itemvalue="JUnit.PlayerTest.checkIfPlayerRunIntoWall" />
+      <item itemvalue="JUnit.model.test in Server" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.PlayerTest.checkIfPlayerRunIntoWall" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -439,7 +379,9 @@
       <workItem from="1536636000376" duration="268000" />
       <workItem from="1536707123478" duration="5000" />
       <workItem from="1536920304919" duration="212000" />
-      <workItem from="1537008707408" duration="6604000" />
+      <workItem from="1537008707408" duration="11034000" />
+      <workItem from="1537076096916" duration="1651000" />
+      <workItem from="1537078508037" duration="487000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1534598513350</created>
@@ -487,24 +429,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnitTest - 2018.08.26 at 15h 17m 44s.xml">
-      <configuration name="UnitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTest - 2018.08.26 at 15h 18m 02s.xml">
-      <configuration name="UnitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTest - 2018.08.26 at 15h 19m 08s.xml">
-      <configuration name="UnitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTest - 2018.08.26 at 15h 19m 14s.xml">
-      <configuration name="UnitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTest - 2018.08.27 at 22h 00m 19s.xml">
-      <configuration name="UnitTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTest - 2018.09.07 at 15h 11m 49s.xml">
-      <configuration name="UnitTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UnitTest - 2018.09.07 at 15h 29m 09s.xml">
       <configuration name="UnitTest" configurationId="JUnit" />
     </history-entry>
@@ -517,9 +441,27 @@
     <history-entry file="UnitTest - 2018.09.16 at 10h 38m 32s.xml">
       <configuration name="UnitTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UnitTest - 2018.09.16 at 16h 17m 33s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest - 2018.09.16 at 16h 18m 20s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest - 2018.09.16 at 16h 20m 14s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest - 2018.09.16 at 16h 21m 46s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest - 2018.09.16 at 16h 22m 05s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="model_test_in_Server - 2018.09.16 at 16h 22m 34s.xml">
+      <configuration name="model.test in Server" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61504000" />
+    <option name="totallyTimeSpent" value="68132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,10 +473,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.31318682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.32051283" />
+      <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.18009768" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50102043" side_tool="true" weight="0.18009768" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3255102" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38716578" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993895" weight="0.28877005" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.327551" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.31318682" />
       <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.18009768" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -543,13 +515,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.50102043" side_tool="true" weight="0.18009768" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4459893" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4459893" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38716578" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993895" weight="0.2897959" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993895" visible="true" weight="0.28877005" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32834226" />
@@ -562,7 +534,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -601,89 +573,18 @@
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/server/model/Movable.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/controller/view.java" />
-    <entry file="file://$PROJECT_DIR$/src/server/model/unittest/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/exception/ObjectHittingWallException.java">
+    <entry file="file://$PROJECT_DIR$/src/trial.form" />
+    <entry file="file://$PROJECT_DIR$/src/trial.java" />
+    <entry file="file://$PROJECT_DIR$/src/warning.form" />
+    <entry file="file://$PROJECT_DIR$/src/warning.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/lnj.java" />
+    <entry file="file://$PROJECT_DIR$/src/server/model/singltontest.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/model/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/exception/ObjectOutOfMapException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/controller/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/model/Wall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trial.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/warning.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/warning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/lnj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/model/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="e#300#301#0" expanded="true" />
             <element signature="e#334#335#0" expanded="true" />
@@ -693,88 +594,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/model/Cell.java">
+    <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="85">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#2450#2513#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/model/Monster.java">
+    <entry file="file://$PROJECT_DIR$/server/src/model/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/RemotePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/model/Player.java">
+    <entry file="file://$PROJECT_DIR$/server/src/model/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/Stationary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/model/unittest/PlayerTest.java">
+    <entry file="file://$PROJECT_DIR$/server/src/controller/KeyPressAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="986">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/exception/PlayerDeadException.java">
+    <entry file="file://$PROJECT_DIR$/server/src/exception/PlayerDeadException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="153">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#0#114#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
             <element signature="e#233#234#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/model/Stationary.java">
+    <entry file="file://$PROJECT_DIR$/server/src/exception/ObjectOutOfMapException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="102">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/controller/Game.java">
+    <entry file="file://$PROJECT_DIR$/server/src/exception/ObjectHittingWallException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        <state relative-caret-position="170">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/controller/KeyPressAction.java">
+    <entry file="file://$PROJECT_DIR$/server/src/model/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/model/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="272">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
           <folding>
-            <element signature="e#995#996#0" expanded="true" />
+            <element signature="method#Map#0;class#Map#0" />
+            <element signature="method#addEdgesAndWalls#0;class#Map#0" />
+            <element signature="method#drawMap#0;class#Map#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/model/Movable.java">
+    <entry file="file://$PROJECT_DIR$/server/src/controller/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="289">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/controller/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/test/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/test/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/controller/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -841,11 +814,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MonsterGame</last-edited>
+          <last-edited>serverSide</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,11 +1,11 @@
-package server.model;
+package model;
 
 public abstract class Stationary extends Entity{
 
     private boolean passThrough;
 
-    public Stationary(int xCorrdinate, int yCoordinate, boolean passThrough) {
-        super(xCorrdinate, yCoordinate);
+    public Stationary(int xCoordinate, int yCoordinate, boolean passThrough) {
+        super(xCoordinate, yCoordinate);
         this.passThrough = passThrough;
     }
 

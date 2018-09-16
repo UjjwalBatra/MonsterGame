@@ -1,14 +1,15 @@
-package server.controller;
+package controller;
 
 
-import server.exception.ObjectHittingWallException;
-import server.exception.ObjectOutOfMapException;
-import server.exception.PlayerDeadException;
-import server.model.Movable;
+import model.Movable;
+import exception.ObjectHittingWallException;
+import exception.ObjectOutOfMapException;
+import exception.PlayerDeadException;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.rmi.RemoteException;
 
 public class KeyPressAction extends Frame implements KeyListener {
 
@@ -60,6 +61,10 @@ public class KeyPressAction extends Frame implements KeyListener {
 
         } catch (PlayerDeadException ex) {
             //stop players ability to play anymore!!!!!!!!!!!!
+        } catch (RemoteException ex) {
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
         }
     }
 

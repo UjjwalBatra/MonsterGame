@@ -1,12 +1,12 @@
-package server.model;
+package model;
 
 public class Monster extends Movable {
 
     private Entity player;
     private static final Monster monster = new Monster(4, 4);
 
-    public Monster(int xCorrdinate, int yCoordinate) {
-        super(xCorrdinate, yCoordinate);
+    public Monster(int xCoordinate, int yCoordinate) {
+        super(xCoordinate, yCoordinate);
     }
 
     public void start() {

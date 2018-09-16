@@ -1,12 +1,13 @@
-package server.model;
+package model;
 
 public class Player extends Movable {
 
     String name;
 
+    public Player() {}
 
-    public Player(int xCorrdinate, int yCoordinate, String name) {
-        super(xCorrdinate, yCoordinate);
+    public Player(int xCoordinate, int yCoordinate, String name) {
+        super(xCoordinate, yCoordinate);
         this.name = name;
     }
 

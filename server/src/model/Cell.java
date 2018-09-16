@@ -1,4 +1,4 @@
-package server.model;
+package model;
 
 public class Cell extends Stationary {
 
@@ -9,5 +9,10 @@ public class Cell extends Stationary {
     @Override
     public void draw() {
         System.out.print("=");
+    }
+
+    @Override
+    public void move(String direction) throws Exception {
+
     }
 }

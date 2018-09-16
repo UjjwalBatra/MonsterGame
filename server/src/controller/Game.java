@@ -1,6 +1,6 @@
-package server.controller;
+package controller;
 
-import server.model.*;
+import model.*;
 
 public class Game
 {
