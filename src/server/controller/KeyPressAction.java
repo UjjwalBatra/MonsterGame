@@ -1,9 +1,9 @@
-package controller;
+package server.controller;
 
 
-import model.Movable;
-import model.exception.ObjectHittingWallException;
-import model.exception.ObjectOutOfMapException;
+import server.model.Movable;
+import server.exception.ObjectHittingWallException;
+import server.exception.ObjectOutOfMapException;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;

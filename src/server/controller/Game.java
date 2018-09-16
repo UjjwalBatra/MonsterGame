@@ -1,9 +1,9 @@
-package controller;
+package server.controller;
 
-import model.Map;
-import model.Monster;
-import model.Movable;
-import model.Player;
+import server.model.Map;
+import server.model.Monster;
+import server.model.Movable;
+import server.model.Player;
 
 public class Game
 {

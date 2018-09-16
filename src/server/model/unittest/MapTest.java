@@ -4,12 +4,11 @@
  * @author - ujjwalbatra on 22/08/18
  *
  */
-package model.unittest;
+package server.model.unittest;
 
-import model.Cell;
-import model.Map;
+import server.model.Cell;
+import server.model.Map;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

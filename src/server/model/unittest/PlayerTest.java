@@ -6,14 +6,14 @@
  *
  */
 
-package model.unittest;
+package server.model.unittest;
 
-import model.Cell;
-import model.Map;
-import model.Movable;
-import model.Player;
-import model.exception.ObjectHittingWallException;
-import model.exception.ObjectOutOfMapException;
+import server.model.Cell;
+import server.model.Map;
+import server.model.Movable;
+import server.model.Player;
+import server.exception.ObjectHittingWallException;
+import server.exception.ObjectOutOfMapException;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

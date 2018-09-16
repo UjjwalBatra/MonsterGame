@@ -1,4 +1,4 @@
-package model.exception;/*
+package server.exception;/*
  *
  * @project - MonsterGame
  * @author - ujjwalbatra on 05/09/18

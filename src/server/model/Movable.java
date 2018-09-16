@@ -1,7 +1,7 @@
-package model;
+package server.model;
 
-import model.exception.ObjectHittingWallException;
-import model.exception.ObjectOutOfMapException;
+import server.exception.ObjectHittingWallException;
+import server.exception.ObjectOutOfMapException;
 
 public abstract class Movable extends Entity {
 
