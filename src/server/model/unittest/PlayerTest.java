@@ -28,20 +28,20 @@ class PlayerTest {
     @BeforeEach
     void setUp() {
         map = Map.getPlayingArea();
-        player = new Player(0, 0);
+        player = new Player(0, 0, "chunmun");
     }
 
     @Test
     public void checkPlayerMovement(){
 
-        player.setxCorrdinate(4);
+        player.setxCoordinate(4);
         player.setyCoordinate(4);
 
         assertThrows(ObjectHittingWallException.class, () -> {
            player.move("right");
 
-           assertEquals(5, player.getyCoordinate());
-           assertEquals(4, player.getxCorrdinate());
+           assertEquals(5, player.getYCoordinate());
+           assertEquals(4, player.getXCorrdinate());
 
            assertTrue(map.getMap()[4][4] instanceof Cell);
            assertTrue(map.getMap()[4][5] instanceof Player);
@@ -78,8 +78,8 @@ class PlayerTest {
             player.move("left");
         });
 
-        assertEquals(0, player.getyCoordinate());
-        assertEquals(0, player.getxCorrdinate());
+        assertEquals(0, player.getYCoordinate());
+        assertEquals(0, player.getXCorrdinate());
     }
 
     @Test
@@ -89,16 +89,16 @@ class PlayerTest {
             player.move("right");
             player.move("down");
 
-            assertEquals(1, player.getyCoordinate());
-            assertEquals(0, player.getxCorrdinate());
+            assertEquals(1, player.getYCoordinate());
+            assertEquals(0, player.getXCorrdinate());
 
             player.move("down");
             player.move("down");
             player.move("down");
         });
 
-        assertEquals(1, player.getyCoordinate());
-        assertEquals(0, player.getxCorrdinate());
+        assertEquals(1, player.getYCoordinate());
+        assertEquals(0, player.getXCorrdinate());
 
     }
 

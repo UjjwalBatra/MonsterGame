@@ -2,23 +2,23 @@ package server.model;
 
 public abstract class Entity {
     //current
-    private int xCorrdinate;
+    private int xCoordinate;
     private int yCoordinate;
 
-    public Entity(int xCorrdinate, int yCoordinate) {
-        this.xCorrdinate = xCorrdinate;
+    public Entity(int xCoordinate, int yCoordinate) {
+        this.xCoordinate = xCoordinate;
         this.yCoordinate = yCoordinate;
     }
 
-    public int getxCorrdinate() {
-        return xCorrdinate;
+    public int getXCorrdinate() {
+        return xCoordinate;
     }
 
-    public void setxCorrdinate(int xCorrdinate) {
-        this.xCorrdinate = xCorrdinate;
+    public void setxCoordinate(int xCoordinate) {
+        this.xCoordinate = xCoordinate;
     }
 
-    public int getyCoordinate() {
+    public int getYCoordinate() {
         return yCoordinate;
     }
 

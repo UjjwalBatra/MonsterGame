@@ -16,6 +16,11 @@ public class Monster extends Movable {
 
     }
 
+    public void eat(int y, int x ) {
+        Map.getPlayingArea().getMap()[y][x] = new Cell(y, x);
+        Map.getPlayingArea().drawMap();
+    }
+
 
     @Override
     public void draw() {

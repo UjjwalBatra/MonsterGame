@@ -1,9 +1,10 @@
 package server.controller;
 
 
-import server.model.Movable;
 import server.exception.ObjectHittingWallException;
 import server.exception.ObjectOutOfMapException;
+import server.exception.PlayerDeadException;
+import server.model.Movable;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -51,12 +52,14 @@ public class KeyPressAction extends Frame implements KeyListener {
                 player.move("down");
 
             }
-        } catch (ObjectOutOfMapException ex){
+        } catch (ObjectOutOfMapException ex) {
 
-        } catch (ObjectHittingWallException ex){
+        } catch (ObjectHittingWallException ex) {
 
-        } catch (InterruptedException ex){
+        } catch (InterruptedException ex) {
 
+        } catch (PlayerDeadException ex) {
+            //stop players ability to play anymore!!!!!!!!!!!!
         }
     }
 
