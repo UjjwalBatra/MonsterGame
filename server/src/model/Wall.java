@@ -11,7 +11,4 @@ public class Wall extends Stationary {
         System.out.print("W");
     }
 
-    @Override
-    public void move(String direction) throws Exception {
-    }
 }

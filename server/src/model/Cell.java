@@ -11,8 +11,4 @@ public class Cell extends Stationary {
         System.out.print("=");
     }
 
-    @Override
-    public void move(String direction) throws Exception {
-
-    }
 }

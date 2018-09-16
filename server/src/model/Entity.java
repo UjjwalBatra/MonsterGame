@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Entity implements RemotePlayer{
+public abstract class Entity {
     //current
     private int xCoordinate;
     private int yCoordinate;

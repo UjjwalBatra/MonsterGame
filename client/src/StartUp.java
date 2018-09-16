@@ -5,6 +5,7 @@
  *
  */
 
+import java.rmi.Naming;
 import java.rmi.RMISecurityManager;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
@@ -16,8 +17,7 @@ public class StartUp {
             System.setSecurityManager(new RMISecurityManager());
 
             try {
-
-
+                RemotePlayer player =(RemotePlayer)Naming.lookup("rmi://localhost/Player2");
             } catch (Exception e){
 
             }
@@ -27,5 +27,6 @@ public class StartUp {
             System.err.println("Client exception: " + e.toString());
             e.printStackTrace();
         }
+
     }
 }

@@ -4,7 +4,7 @@ import exception.ObjectHittingWallException;
 import exception.ObjectOutOfMapException;
 import exception.PlayerDeadException;
 
-public abstract class Movable extends Entity {
+public abstract class Movable extends Entity implements RemotePlayer{
     public Movable() {
     }
 

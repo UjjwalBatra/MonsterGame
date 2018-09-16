@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd1ab39-2dd4-4f2e-8e80-10e00bbc6863" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/StartUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/controller/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/model/RemotePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/RemotePlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/controller/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/controller/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/GameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/controller/KeyPressAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/KeyPressAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/exception/ObjectHittingWallException.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/exception/ObjectHittingWallException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/exception/ObjectOutOfMapException.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/exception/ObjectOutOfMapException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/exception/PlayerDeadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/exception/PlayerDeadException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Movable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/Stationary.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Stationary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Wall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/unittest/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/test/MapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/unittest/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/test/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/StartUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/StartUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controller/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/model/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/model/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Movable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/model/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Wall.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,26 +39,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="form" value="2" />
-          <entry key="java" value="113" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="2" />
-          <entry key="JAVA" value="113" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5706" />
+          <entry key="JAVA" value="6046" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5706" />
+          <entry key="java" value="6046" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
@@ -84,14 +73,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#0#456#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/controller/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/controller/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/model/RemotePlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/model/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -114,6 +155,7 @@
       <find>monster</find>
       <find>map</find>
       <find>corr</find>
+      <find>rmi expl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,9 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/controller/Entity.java" />
-        <option value="$PROJECT_DIR$/src/controller/Player.java" />
-        <option value="$PROJECT_DIR$/src/controller/Movable.java" />
         <option value="$PROJECT_DIR$/src/controller/Monster.java" />
         <option value="$PROJECT_DIR$/src/controller/Stationary.java" />
         <option value="$PROJECT_DIR$/src/controller/Wall.java" />
@@ -169,8 +208,13 @@
         <option value="$PROJECT_DIR$/server/src/model/test/PlayerTest.java" />
         <option value="$PROJECT_DIR$/server/src/model/test/MapTest.java" />
         <option value="$PROJECT_DIR$/server/src/controller/Game.java" />
+        <option value="$PROJECT_DIR$/client/src/RemotePlayer.java" />
+        <option value="$PROJECT_DIR$/server/src/model/Entity.java" />
+        <option value="$PROJECT_DIR$/server/src/model/Movable.java" />
         <option value="$PROJECT_DIR$/server/src/model/Wall.java" />
         <option value="$PROJECT_DIR$/server/src/model/Cell.java" />
+        <option value="$PROJECT_DIR$/client/src/StartUp.java" />
+        <option value="$PROJECT_DIR$/server/src/controller/Server.java" />
       </list>
     </option>
   </component>
@@ -197,26 +241,6 @@
               <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="MonsterGame" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MonsterGame" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MonsterGame" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="JUnit5.2" type="70bed36:NamedLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -232,7 +256,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537079055852" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537081738748" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -243,7 +267,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.rmicompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -255,6 +279,9 @@
       <recent name="server" />
       <recent name="Server" />
       <recent name="model.unittest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -381,7 +408,7 @@
       <workItem from="1536920304919" duration="212000" />
       <workItem from="1537008707408" duration="11034000" />
       <workItem from="1537076096916" duration="1651000" />
-      <workItem from="1537078508037" duration="487000" />
+      <workItem from="1537078508037" duration="2432000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1534598513350</created>
@@ -461,7 +488,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68132000" />
+    <option name="totallyTimeSpent" value="70017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -491,7 +518,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993895" weight="0.28877005" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993895" weight="0.2877551" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.327551" />
@@ -581,46 +608,6 @@
     <entry file="file://$PROJECT_DIR$/src/warning.java" />
     <entry file="file://$PROJECT_DIR$/src/controller/lnj.java" />
     <entry file="file://$PROJECT_DIR$/src/server/model/singltontest.java" />
-    <entry file="file://$PROJECT_DIR$/server/src/model/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#2450#2513#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/RemotePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/model/Monster.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -683,23 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/controller/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/controller/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/model/test/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -720,31 +690,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/controller/Game.java">
+    <entry file="file://$PROJECT_DIR$/client/src/RemotePlayer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/client.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/controller/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="289">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/model/Wall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="136">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/model/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="136">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/RemotePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/controller/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#456#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/controller/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -814,7 +839,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>serverSide</last-edited>
+          <last-edited>client</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
