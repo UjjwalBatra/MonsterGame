@@ -2,9 +2,7 @@ package model;
 
 public class Player extends Movable {
 
-    String name;
-
-    public Player() {}
+    private String name;
 
     public Player(int xCoordinate, int yCoordinate, String name) {
         super(xCoordinate, yCoordinate);
@@ -13,6 +11,10 @@ public class Player extends Movable {
 
     public void deathSequence() {
 
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override

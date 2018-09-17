@@ -1,16 +1,13 @@
 package model;
 
 public abstract class Entity {
-    //current
+    //current coordinates
     private int xCoordinate;
     private int yCoordinate;
 
     public Entity(int xCoordinate, int yCoordinate) {
         this.xCoordinate = xCoordinate;
         this.yCoordinate = yCoordinate;
-    }
-
-    public Entity() {
     }
 
     public int getXCoordinate() {

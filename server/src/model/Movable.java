@@ -5,11 +5,10 @@ import exception.ObjectHittingWallException;
 import exception.ObjectOutOfMapException;
 import exception.PlayerDeadException;
 
+import java.io.Serializable;
 import java.rmi.RemoteException;
 
-public abstract class Movable extends Entity implements RemotePlayer{
-    public Movable() {
-    }
+public abstract class Movable extends Entity implements RemotePlayer, Serializable {
 
     public Movable(int xCoordinate, int yCoordinate) {
         super(xCoordinate, yCoordinate);
@@ -76,7 +75,7 @@ public abstract class Movable extends Entity implements RemotePlayer{
             Map.getPlayingArea().drawMap();
 
             //initiate player death sequence if any
-            throw new PlayerDeadException(((Player) this).name + " died at time");
+            throw new PlayerDeadException(((Player) this).getName() + " died at time");
 
         } else if (this instanceof Monster && nextCell instanceof Player) {
             ((Monster) this).eat(xCoordinateNew, yCoordinateNew);

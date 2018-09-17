@@ -14,17 +14,22 @@ public class StartUp {
     public static void main(String[] args) {
         try {
             Registry registry = LocateRegistry.getRegistry(null);
-            System.setSecurityManager(new RMISecurityManager());
 
-            try {
-                RemotePlayer player =(RemotePlayer)Naming.lookup("rmi://localhost/Player2");
-                //todo : is this name fine????????????????????
-            } catch (Exception e){
-
+            if (System.getSecurityManager() == null) {
+                System.setSecurityManager(new SecurityManager());
             }
 
+            RemotePlayer player = (RemotePlayer) Naming.lookup("Player2");
+            //todo : is this name fine????????????????????
+            player.move("left");
+            player.move("left");
+            player.move("up");
+            player.move("up");
+            player.move("down");
+            player.move("down");
 
-        } catch (Exception e){
+
+        } catch (Exception e) {
             System.err.println("Client exception: " + e.toString());
             e.printStackTrace();
         }
