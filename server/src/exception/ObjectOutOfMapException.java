@@ -6,7 +6,7 @@
  */
 package exception;
 
-public class ObjectOutOfMapException extends Exception {
+public class ObjectOutOfMapException extends GameException {
     public ObjectOutOfMapException(String message) {
         super(message);
     }

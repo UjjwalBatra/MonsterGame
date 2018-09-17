@@ -5,7 +5,7 @@ package exception;/*
  *
  */
 
-public class ObjectHittingWallException extends Exception {
+public class ObjectHittingWallException extends GameException {
     public ObjectHittingWallException(String message) {
         super(message);
     }

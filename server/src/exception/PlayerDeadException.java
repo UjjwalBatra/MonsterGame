@@ -7,7 +7,7 @@
 
 package exception;
 
-public class PlayerDeadException extends Exception{
+public class PlayerDeadException extends GameException {
     public PlayerDeadException(String message) {
         super(message);
     }

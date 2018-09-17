@@ -1,8 +1,11 @@
 package model;
 
+import exception.GameException;
 import exception.ObjectHittingWallException;
 import exception.ObjectOutOfMapException;
 import exception.PlayerDeadException;
+
+import java.rmi.RemoteException;
 
 public abstract class Movable extends Entity implements RemotePlayer{
     public Movable() {
@@ -13,7 +16,7 @@ public abstract class Movable extends Entity implements RemotePlayer{
         Map.getPlayingArea().getMap()[xCoordinate][yCoordinate] = this;
     }
 
-    synchronized public void move(String direction) throws Exception{
+    synchronized public void move(String direction) throws RemoteException, GameException, InterruptedException {
 
         int xCoordinateNew = 0;
         int yCoordinateNew = 0;
