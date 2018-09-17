@@ -18,6 +18,7 @@ public class StartUp {
 
             try {
                 RemotePlayer player =(RemotePlayer)Naming.lookup("rmi://localhost/Player2");
+                //todo : is this name fine????????????????????
             } catch (Exception e){
 
             }
