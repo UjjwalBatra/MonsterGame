@@ -1,6 +1,6 @@
 package model;
 
-public class Player extends Movable {
+public class Player extends Movable  {
 
     private String name;
 

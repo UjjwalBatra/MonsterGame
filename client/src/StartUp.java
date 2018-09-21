@@ -13,14 +13,14 @@ import java.rmi.registry.Registry;
 public class StartUp {
     public static void main(String[] args) {
         try {
-            Registry registry = LocateRegistry.getRegistry(null);
+            Registry registry = LocateRegistry.getRegistry();
 
             if (System.getSecurityManager() == null) {
                 System.setSecurityManager(new SecurityManager());
             }
 
-            RemotePlayer player = (RemotePlayer) Naming.lookup("Player2");
-            //todo : is this name fine????????????????????
+            RemotePlayer player = (RemotePlayer) Naming.lookup("//localhost:1099/Player2");
+
             player.move("left");
             player.move("left");
             player.move("up");

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd1ab39-2dd4-4f2e-8e80-10e00bbc6863" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/client/client.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.policy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/StartUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/StartUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/controller/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/model/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/model/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Movable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,9 +18,9 @@
     <session id="771853904">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="38" />
+          <entry key="project.closed" value="40" />
           <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="11" />
+          <entry key="project.open.time.1" value="13" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -33,7 +28,7 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.opened" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,7 +50,7 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6350" />
+          <entry key="JAVA" value="6441" />
           <entry key="PLAIN_TEXT" value="74" />
           <entry key="VTL" value="26" />
         </counts>
@@ -65,7 +60,7 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="ft" value="26" />
-          <entry key="java" value="6350" />
+          <entry key="java" value="6441" />
           <entry key="policy" value="53" />
           <entry key="txt" value="17" />
         </counts>
@@ -82,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+            <state relative-caret-position="216">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/src/controller/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+            <state relative-caret-position="157">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,12 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-              <folding>
-                <element signature="method#Movable#1;class#Movable#0" />
-                <element signature="e#2567#2630#0" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -159,9 +150,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/model/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="374">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
+                <element signature="e#292#293#0" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
               </folding>
             </state>
@@ -197,6 +189,9 @@
       <find>corr</find>
       <find>rmi expl</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/server</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -247,13 +242,13 @@
         <option value="$PROJECT_DIR$/server/src/model/RemotePlayer.java" />
         <option value="$PROJECT_DIR$/server/src/controller/Game.java" />
         <option value="$PROJECT_DIR$/server/src/model/Entity.java" />
-        <option value="$PROJECT_DIR$/server/src/model/Player.java" />
-        <option value="$PROJECT_DIR$/server/src/model/Movable.java" />
         <option value="$PROJECT_DIR$/server/src/server.policy" />
         <option value="$PROJECT_DIR$/client/src/client.policy" />
         <option value="$PROJECT_DIR$/server/server.policy" />
         <option value="$PROJECT_DIR$/client/client.policy" />
         <option value="$PROJECT_DIR$/client/src/StartUp.java" />
+        <option value="$PROJECT_DIR$/server/src/model/Movable.java" />
+        <option value="$PROJECT_DIR$/server/src/model/Player.java" />
         <option value="$PROJECT_DIR$/server/src/controller/Server.java" />
       </list>
     </option>
@@ -264,7 +259,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -274,8 +269,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,11 +298,34 @@
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonsterGame" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonsterGame" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonsterGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonsterGame" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,7 +334,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537188598454" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537532332604" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -367,11 +383,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ServerStartGame">
+  <component name="RunManager" selected="Application.ClientStartGame">
     <configuration name="ClientStartGame" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="StartUp" />
       <module name="client" />
-      <option name="VM_PARAMETERS" value="-Djava.security.policy=file:${workspace_loc}/${project_name}/client.policy -Djava.rmi.server.codebase=file:${workspace_loc}/${project_name}/client/" />
+      <option name="VM_PARAMETERS" value="-Djava.security.policy=file:$PROJECT_DIR$/client/client.policy -Djava.rmi.server.codebase=file:$PROJECT_DIR$/client/ -classpath $PROJECT_DIR$/out/production/client:.:$PROJECT_DIR$/out/production/server/" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -380,7 +396,7 @@
     <configuration name="ServerStartGame" type="Application" factoryName="Application" singleton="true">
       <option name="MAIN_CLASS_NAME" value="controller.Server" />
       <module name="Server" />
-      <option name="VM_PARAMETERS" value="-Djava.security.policy=file:${workspace_loc}/${project_name}/server.policy -Djava.rmi.server.codebase=file:${workspace_loc}/${project_name}/server/" />
+      <option name="VM_PARAMETERS" value="-Djava.security.policy=file:$PROJECT_DIR$/server/server.policy -Djava.rmi.server.codebase=file:$PROJECT_DIR$/server/" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -476,7 +492,9 @@
       <workItem from="1537078508037" duration="2610000" />
       <workItem from="1537150658917" duration="2746000" />
       <workItem from="1537157977199" duration="4010000" />
-      <workItem from="1537183625359" duration="3510000" />
+      <workItem from="1537183625359" duration="3624000" />
+      <workItem from="1537505878854" duration="203000" />
+      <workItem from="1537513669609" duration="6195000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1534598513350</created>
@@ -556,7 +574,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80461000" />
+    <option name="totallyTimeSpent" value="86973000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,7 +589,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.2753358" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.2814408" />
       <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.18009768" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -680,10 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,9 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,9 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,10 +791,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/controller/Game.java">
+    <entry file="file://$PROJECT_DIR$/client/client.policy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.policy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -801,52 +823,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/Entity.java">
+    <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/model/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="374">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
+            <element signature="e#292#293#0" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
+    <entry file="file://$PROJECT_DIR$/server/src/controller/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-          <folding>
-            <element signature="method#Movable#1;class#Movable#0" />
-            <element signature="e#2567#2630#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.policy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/client.policy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="340">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+        <state relative-caret-position="216">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -855,8 +860,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/controller/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        <state relative-caret-position="157">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -931,7 +936,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
