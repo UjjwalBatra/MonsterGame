@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7bd1ab39-2dd4-4f2e-8e80-10e00bbc6863" name="Default Changelist" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/RemotePlayer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/StartUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/StartUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controller/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +34,7 @@
         <counts>
           <entry key="form" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="131" />
+          <entry key="java" value="132" />
           <entry key="policy" value="2" />
         </counts>
       </usages-collector>
@@ -43,14 +42,14 @@
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="131" />
+          <entry key="JAVA" value="132" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6441" />
+          <entry key="JAVA" value="6470" />
           <entry key="PLAIN_TEXT" value="74" />
           <entry key="VTL" value="26" />
         </counts>
@@ -60,7 +59,7 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="ft" value="26" />
-          <entry key="java" value="6441" />
+          <entry key="java" value="6470" />
           <entry key="policy" value="53" />
           <entry key="txt" value="17" />
         </counts>
@@ -74,11 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="352">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/controller/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="-101">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="82" />
+            <state relative-caret-position="-578">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -151,7 +150,7 @@
         <entry file="file://$PROJECT_DIR$/server/src/model/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#292#293#0" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
@@ -246,10 +245,10 @@
         <option value="$PROJECT_DIR$/client/src/client.policy" />
         <option value="$PROJECT_DIR$/server/server.policy" />
         <option value="$PROJECT_DIR$/client/client.policy" />
-        <option value="$PROJECT_DIR$/client/src/StartUp.java" />
         <option value="$PROJECT_DIR$/server/src/model/Movable.java" />
         <option value="$PROJECT_DIR$/server/src/model/Player.java" />
         <option value="$PROJECT_DIR$/server/src/controller/Server.java" />
+        <option value="$PROJECT_DIR$/client/src/StartUp.java" />
       </list>
     </option>
   </component>
@@ -334,7 +333,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537532332604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537533116746" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -351,12 +350,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="model" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client" />
-      <recent name="$PROJECT_DIR$/server" />
-      <recent name="$PROJECT_DIR$/server/src" />
-      <recent name="$PROJECT_DIR$/Server/src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="client" />
       <recent name="server.controller" />
@@ -364,11 +357,18 @@
       <recent name="Server" />
       <recent name="model.unittest" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/server/src" />
+      <recent name="$PROJECT_DIR$/Server/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -494,7 +494,7 @@
       <workItem from="1537157977199" duration="4010000" />
       <workItem from="1537183625359" duration="3624000" />
       <workItem from="1537505878854" duration="203000" />
-      <workItem from="1537513669609" duration="6195000" />
+      <workItem from="1537513669609" duration="6841000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1534598513350</created>
@@ -574,7 +574,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86973000" />
+    <option name="totallyTimeSpent" value="87619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,9 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/RemotePlayer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/client.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -823,17 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/model/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#292#293#0" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
@@ -848,20 +838,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
+    <entry file="file://$PROJECT_DIR$/RemotePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="68">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/controller/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/controller/Server.java">
+    <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-578">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

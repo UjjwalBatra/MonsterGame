@@ -5,8 +5,9 @@
  *
  */
 
+import model.RemotePlayer;
+
 import java.rmi.Naming;
-import java.rmi.RMISecurityManager;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
@@ -23,10 +24,8 @@ public class StartUp {
 
             player.move("left");
             player.move("left");
-            player.move("up");
-            player.move("up");
-            player.move("down");
-            player.move("down");
+            player.move("left");
+            player.move("left");
 
 
         } catch (Exception e) {
