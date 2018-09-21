@@ -20,12 +20,20 @@ public class StartUp {
                 System.setSecurityManager(new SecurityManager());
             }
 
-            RemotePlayer player = (RemotePlayer) Naming.lookup("//localhost:1099/Player2");
+            RemotePlayer player2 = (RemotePlayer) Naming.lookup("//localhost:2097/Player2");
 
-            player.move("left");
-            player.move("left");
-            player.move("left");
-            player.move("left");
+            player2.move("left");
+            player2.move("left");
+
+            RemotePlayer player3 = (RemotePlayer) Naming.lookup("//localhost:2098/Player3");
+
+            player3.move("right");
+            player3.move("right");
+
+            RemotePlayer player4 = (RemotePlayer) Naming.lookup("//localhost:2099/Player4");
+
+            player4.move("left");
+            player4.move("left");
 
 
         } catch (Exception e) {

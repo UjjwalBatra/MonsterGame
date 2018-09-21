@@ -41,11 +41,13 @@ public class Server {
             RemotePlayer stub = (RemotePlayer) UnicastRemoteObject.exportObject(player2);
             RemotePlayer stub2 = (RemotePlayer) UnicastRemoteObject.exportObject(player3);
             RemotePlayer stub3 = (RemotePlayer) UnicastRemoteObject.exportObject(player4);
-            Registry registry = LocateRegistry.createRegistry(1099);
+            Registry registry1 = LocateRegistry.createRegistry(2097);
+            Registry registry2 = LocateRegistry.createRegistry(2098);
+            Registry registry3 = LocateRegistry.createRegistry(2099);
 
-            registry.bind("Player2", stub);
-            registry.bind("Player3", stub2);
-            registry.bind("Player4", stub3);
+            registry1.bind("Player2", stub);
+            registry2.bind("Player3", stub2);
+            registry3.bind("Player4", stub3);
             System.err.println("Server Ready");
 
         } catch (Exception e) {

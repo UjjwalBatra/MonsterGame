@@ -31,6 +31,8 @@ public class Map {
             }
             System.out.println();
         }
+        System.out.println("\n");
+
     }
 
     public static Map getPlayingArea() {
