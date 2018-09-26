@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd1ab39-2dd4-4f2e-8e80-10e00bbc6863" name="Default Changelist" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/server/src/model/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Movable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/StartUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/StartUp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +16,7 @@
     <session id="771853904">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="44" />
+          <entry key="project.closed" value="45" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="15" />
           <entry key="project.open.time.10" value="2" />
@@ -49,7 +50,7 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7083" />
+          <entry key="JAVA" value="7161" />
           <entry key="PLAIN_TEXT" value="74" />
           <entry key="VTL" value="26" />
         </counts>
@@ -59,7 +60,7 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="ft" value="26" />
-          <entry key="java" value="7083" />
+          <entry key="java" value="7161" />
           <entry key="policy" value="53" />
           <entry key="txt" value="17" />
         </counts>
@@ -73,11 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="593">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#0#1260#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -116,7 +117,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="423">
@@ -246,8 +247,8 @@
         <option value="$PROJECT_DIR$/server/src/exception/PlayerRunningOverPlayerException.java" />
         <option value="$PROJECT_DIR$/server/src/controller/KeyPressAction.java" />
         <option value="$PROJECT_DIR$/server/src/model/Player.java" />
-        <option value="$PROJECT_DIR$/client/src/StartUp.java" />
         <option value="$PROJECT_DIR$/server/src/model/Movable.java" />
+        <option value="$PROJECT_DIR$/client/src/StartUp.java" />
       </list>
     </option>
   </component>
@@ -337,7 +338,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537930520598" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537933883850" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -502,7 +503,7 @@
       <workItem from="1537678578249" duration="1440000" />
       <workItem from="1537777119932" duration="935000" />
       <workItem from="1537927851035" duration="137000" />
-      <workItem from="1537928008576" duration="1805000" />
+      <workItem from="1537928008576" duration="2539000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1534598513350</created>
@@ -582,7 +583,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94778000" />
+    <option name="totallyTimeSpent" value="95512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,7 +613,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.498779" weight="0.2877551" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.498779" visible="true" weight="0.2877551" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.501221" side_tool="true" weight="0.2877551" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.327551" />
@@ -865,17 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#1260#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/controller/KeyPressAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -887,6 +877,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#1260#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
