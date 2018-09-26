@@ -103,7 +103,7 @@ public abstract class Movable extends Entity  {
     }
 
     public Map getMap() throws RemoteException{
-        return map;
+        return this.map;
     }
 
 }
