@@ -1,24 +1,26 @@
 package model;
 
-import exception.GameException;
-import exception.ObjectHittingWallException;
-import exception.ObjectOutOfMapException;
-import exception.PlayerDeadException;
+import exception.*;
 
 import java.io.Serializable;
 import java.rmi.RemoteException;
 
-public abstract class Movable extends Entity implements RemotePlayer, Serializable {
+public abstract class Movable extends Entity  {
+
+    private Map map;
 
     public Movable(int xCoordinate, int yCoordinate) {
         super(xCoordinate, yCoordinate);
-        Map.getPlayingArea().getMap()[xCoordinate][yCoordinate] = this;
+
+        this.map = Map.getPlayingArea();
+
+        this.map.getMap()[xCoordinate][yCoordinate] = this;
     }
 
-    synchronized public void move(String direction) throws RemoteException, GameException, InterruptedException {
+    synchronized public void move(String direction) throws RemoteException, GameException, InterruptedException, PlayerRunningOverPlayerException {
 
-        int xCoordinateNew = 0;
-        int yCoordinateNew = 0;
+        int xCoordinateNew;
+        int yCoordinateNew;
 
         if (direction.equals("left")) {
             xCoordinateNew = getXCoordinate() - 1;
@@ -81,6 +83,10 @@ public abstract class Movable extends Entity implements RemotePlayer, Serializab
             ((Monster) this).eat(xCoordinateNew, yCoordinateNew);
         }
 
+        //stopping tha player from running over another player
+        if (nextCell instanceof Player)
+            throw new PlayerRunningOverPlayerException("Player is running over another player");
+
         // moving it forward on the map
         Map.getPlayingArea().getMap()[yCoordinateNew][xCoordinateNew] = this;
 
@@ -94,6 +100,10 @@ public abstract class Movable extends Entity implements RemotePlayer, Serializab
         Map.getPlayingArea().drawMap();
 
         Thread.sleep(500);
+    }
+
+    public Map getMap() throws RemoteException{
+        return map;
     }
 
 }

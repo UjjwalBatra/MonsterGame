@@ -1,6 +1,8 @@
 package model;
 
-public class Player extends Movable  {
+import java.io.Serializable;
+
+public class Player extends Movable implements RemotePlayer, Serializable {
 
     private String name;
 
@@ -21,4 +23,5 @@ public class Player extends Movable  {
     public void draw() {
         System.out.print("P");
     }
+
 }

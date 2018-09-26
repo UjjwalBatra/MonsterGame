@@ -1,6 +1,7 @@
 package controller;
 
 
+import exception.PlayerRunningOverPlayerException;
 import model.Movable;
 import exception.ObjectHittingWallException;
 import exception.ObjectOutOfMapException;
@@ -63,6 +64,8 @@ public class KeyPressAction extends Frame implements KeyListener {
             //stop players ability to play anymore!!!!!!!!!!!!
         } catch (RemoteException ex) {
 
+        } catch (PlayerRunningOverPlayerException ex) {
+            ex.printStackTrace();
         } catch (Exception ex) {
             ex.printStackTrace();
         }

@@ -5,6 +5,7 @@
  *
  */
 
+
 import model.RemotePlayer;
 
 import java.rmi.Naming;
@@ -24,16 +25,21 @@ public class StartUp {
 
             player2.move("left");
             player2.move("left");
+//            player2.getMap().drawMap();
 
             RemotePlayer player3 = (RemotePlayer) Naming.lookup("//localhost:2098/Player3");
 
             player3.move("right");
             player3.move("right");
+//            player3.getMap().drawMap();
+
 
             RemotePlayer player4 = (RemotePlayer) Naming.lookup("//localhost:2099/Player4");
 
             player4.move("left");
             player4.move("left");
+//            player4.getMap().drawMap();
+
 
 
         } catch (Exception e) {
