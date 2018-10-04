@@ -1,6 +1,8 @@
 package model;
 
-public class Wall extends Stationary {
+import java.io.Serializable;
+
+public class Wall extends Stationary implements Serializable {
 
     public Wall(int xCoordinate, int yCoordinate) {
         super(xCoordinate, yCoordinate, false);

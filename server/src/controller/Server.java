@@ -37,7 +37,6 @@ public class Server {
                 System.setSecurityManager(new SecurityManager());
             }
 
-            //todo : how do I make all the players available on different ports?
             RemotePlayer stub = (RemotePlayer) UnicastRemoteObject.exportObject(player2);
             RemotePlayer stub2 = (RemotePlayer) UnicastRemoteObject.exportObject(player3);
             RemotePlayer stub3 = (RemotePlayer) UnicastRemoteObject.exportObject(player4);

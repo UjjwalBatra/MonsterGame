@@ -1,6 +1,8 @@
 package model;
 
-public class Monster extends Movable {
+import java.io.Serializable;
+
+public class Monster extends Movable implements Serializable {
 
     private Entity player;
     private static final Monster monster = new Monster(4, 4);

@@ -14,9 +14,9 @@ import java.rmi.RemoteException;
 
 public class KeyPressAction extends Frame implements KeyListener {
 
-    Label l;
-    TextArea area;
-    Movable player;
+    private Label l;
+    private TextArea area;
+    private Movable player;
 
     public KeyPressAction(Movable player) {
         this.player = player;

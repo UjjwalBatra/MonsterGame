@@ -1,6 +1,8 @@
 package model;
 
-public class Cell extends Stationary {
+import java.io.Serializable;
+
+public class Cell extends Stationary implements Serializable {
 
     public Cell(int xCorrdinate, int yCoordinate) {
         super(xCorrdinate, yCoordinate, true);
