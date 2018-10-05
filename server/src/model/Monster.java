@@ -1,6 +1,7 @@
 package model;
 
 import java.io.Serializable;
+import java.rmi.RemoteException;
 
 public class Monster extends Movable implements Serializable {
 
@@ -18,7 +19,7 @@ public class Monster extends Movable implements Serializable {
 
     }
 
-    public void eat(int y, int x ) {
+    public void eat(int y, int x ) throws RemoteException {
         Map.getPlayingArea().getMap()[y][x] = new Cell(y, x);
         Map.getPlayingArea().drawMap();
     }

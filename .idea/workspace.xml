@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd1ab39-2dd4-4f2e-8e80-10e00bbc6863" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/server/src/model/RemoteMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/StartUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/StartUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controller/KeyPressAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/KeyPressAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/controller/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/model/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/model/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/model/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Monster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/model/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Movable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/model/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/model/RemotePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/RemotePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/model/test/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/test/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/model/test/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/test/PlayerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,9 +25,9 @@
     <session id="771853904">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="51" />
-          <entry key="project.open.time.0" value="9" />
-          <entry key="project.open.time.1" value="17" />
+          <entry key="project.closed" value="55" />
+          <entry key="project.open.time.0" value="11" />
+          <entry key="project.open.time.1" value="19" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -33,14 +35,14 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="52" />
+          <entry key="project.opened" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="form" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="149" />
+          <entry key="java" value="166" />
           <entry key="policy" value="2" />
           <entry key="xml" value="1" />
         </counts>
@@ -49,7 +51,7 @@
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="2" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="149" />
+          <entry key="JAVA" value="166" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
         </counts>
@@ -57,7 +59,7 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7457" />
+          <entry key="JAVA" value="7952" />
           <entry key="PLAIN_TEXT" value="74" />
           <entry key="VTL" value="26" />
         </counts>
@@ -67,7 +69,7 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="ft" value="26" />
-          <entry key="java" value="7457" />
+          <entry key="java" value="7952" />
           <entry key="policy" value="53" />
           <entry key="txt" value="17" />
         </counts>
@@ -82,61 +84,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/controller/Server.java">
+        <entry file="file://$PROJECT_DIR$/server/src/model/RemoteMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            <state relative-caret-position="187">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/model/Monster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/model/Wall.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/model/Cell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -144,13 +98,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/model/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="221">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="method#Map#0;class#Map#0" />
+                <element signature="method#addEdgesAndWalls#0;class#Map#0" />
+                <element signature="method#getMap#0;class#Map#0" />
+                <element signature="method#drawMap#0;class#Map#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,8 +134,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/model/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="68">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+              <folding>
+                <element signature="method#move#0;class#Movable#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,8 +160,8 @@
         <option value="JUnit5 Test Class" />
         <option value="JavaFXApplication" />
         <option value="Singleton" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -195,6 +173,8 @@
       <find>rmi expl</find>
       <find>getxcoo</find>
       <find>getmap</find>
+      <find>\[\]</find>
+      <find>catch</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/server</dir>
@@ -206,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/model/exception/PlayerOutOfBoardException.java" />
         <option value="$PROJECT_DIR$/src/model/unittest/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/controller/Game.java" />
         <option value="$PROJECT_DIR$/src/controller/KeyPressAction.java" />
@@ -235,8 +214,6 @@
         <option value="$PROJECT_DIR$/src/model/test/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/server/model/test/PlayerTest.java" />
         <option value="$PROJECT_DIR$/serverSide/src/model/test/PlayerTest.java" />
-        <option value="$PROJECT_DIR$/server/src/model/test/PlayerTest.java" />
-        <option value="$PROJECT_DIR$/server/src/model/test/MapTest.java" />
         <option value="$PROJECT_DIR$/client/src/RemotePlayer.java" />
         <option value="$PROJECT_DIR$/server/src/exception/GameException.java" />
         <option value="$PROJECT_DIR$/server/src/exception/ObjectHittingWallException.java" />
@@ -245,17 +222,20 @@
         <option value="$PROJECT_DIR$/client/src/client.policy" />
         <option value="$PROJECT_DIR$/server/server.policy" />
         <option value="$PROJECT_DIR$/client/client.policy" />
-        <option value="$PROJECT_DIR$/server/src/model/Map.java" />
-        <option value="$PROJECT_DIR$/server/src/model/RemotePlayer.java" />
         <option value="$PROJECT_DIR$/server/src/exception/PlayerRunningOverPlayerException.java" />
-        <option value="$PROJECT_DIR$/server/src/model/Player.java" />
         <option value="$PROJECT_DIR$/server/src/controller/KeyPressAction.java" />
-        <option value="$PROJECT_DIR$/server/src/controller/Server.java" />
-        <option value="$PROJECT_DIR$/server/src/model/Movable.java" />
-        <option value="$PROJECT_DIR$/server/src/model/Entity.java" />
+        <option value="$PROJECT_DIR$/server/src/model/RemotePlayer.java" />
+        <option value="$PROJECT_DIR$/server/src/model/RemoteMap.java" />
+        <option value="$PROJECT_DIR$/server/src/model/test/MapTest.java" />
+        <option value="$PROJECT_DIR$/server/src/model/test/PlayerTest.java" />
         <option value="$PROJECT_DIR$/server/src/model/Monster.java" />
-        <option value="$PROJECT_DIR$/server/src/model/Wall.java" />
         <option value="$PROJECT_DIR$/server/src/model/Cell.java" />
+        <option value="$PROJECT_DIR$/server/src/controller/Server.java" />
+        <option value="$PROJECT_DIR$/server/src/model/Map.java" />
+        <option value="$PROJECT_DIR$/server/src/model/Wall.java" />
+        <option value="$PROJECT_DIR$/server/src/model/Movable.java" />
+        <option value="$PROJECT_DIR$/server/src/model/Player.java" />
+        <option value="$PROJECT_DIR$/server/src/model/Entity.java" />
         <option value="$PROJECT_DIR$/client/src/StartUp.java" />
       </list>
     </option>
@@ -276,8 +256,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,16 +303,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="start&#9;FILE&#9;file:///Users/ujjwalbatra/Desktop/MonsterGame/client/src/StartUp.java&#10;ser&#9;FILE&#9;file:///Users/ujjwalbatra/Desktop/MonsterGame/server/src/controller/Server.java&#10;mova&#9;FILE&#9;file:///Users/ujjwalbatra/Desktop/MonsterGame/server/src/model/Movable.java" />
+    <property name="SearchEverywhereHistoryKey" value="mova&#9;FILE&#9;file:///Users/ujjwalbatra/Desktop/MonsterGame/server/src/model/Movable.java&#10;map&#9;FILE&#9;file:///Users/ujjwalbatra/Desktop/MonsterGame/server/src/model/Map.java&#10;enti&#9;FILE&#9;file:///Users/ujjwalbatra/Desktop/MonsterGame/server/src/model/Entity.java&#10;movab&#9;FILE&#9;file:///Users/ujjwalbatra/Desktop/MonsterGame/server/src/model/Movable.java&#10;start&#9;FILE&#9;file:///Users/ujjwalbatra/Desktop/MonsterGame/client/src/StartUp.java&#10;ser&#9;FILE&#9;file:///Users/ujjwalbatra/Desktop/MonsterGame/server/src/controller/Server.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538398957478" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538705887611" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -506,6 +486,10 @@
       <workItem from="1538546841276" duration="2591000" />
       <workItem from="1538558647225" duration="1199000" />
       <workItem from="1538570125058" duration="147000" />
+      <workItem from="1538625409093" duration="191000" />
+      <workItem from="1538635695394" duration="993000" />
+      <workItem from="1538699464057" duration="3810000" />
+      <workItem from="1538719322203" duration="128000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1534598513350</created>
@@ -585,7 +569,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103491000" />
+    <option name="totallyTimeSpent" value="108613000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,9 +582,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48979592" visible="true" weight="0.31318682" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48979592" visible="true" weight="0.22893773" />
       <window_info id="Structure" order="1" sideWeight="0.5102041" side_tool="true" weight="0.30952382" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -609,13 +592,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.50714284" side_tool="true" weight="0.30586082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.33262032" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.33163264" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3867347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.498779" weight="0.2877551" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.498779" visible="true" weight="0.2734694" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.501221" side_tool="true" weight="0.2877551" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.327551" />
@@ -663,6 +646,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -709,20 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/test/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/test/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -793,19 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/RemotePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,53 +789,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/test/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/test/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/controller/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="81">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/RemotePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/RemoteMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/Monster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/Wall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/model/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="221">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="method#Map#0;class#Map#0" />
+            <element signature="method#addEdgesAndWalls#0;class#Map#0" />
+            <element signature="method#getMap#0;class#Map#0" />
+            <element signature="method#drawMap#0;class#Map#0" />
           </folding>
         </state>
       </provider>
@@ -878,24 +865,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-          <folding>
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/model/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <folding>
+            <element signature="method#move#0;class#Movable#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="406">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

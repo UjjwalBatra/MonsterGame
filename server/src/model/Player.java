@@ -2,7 +2,7 @@ package model;
 
 import java.io.Serializable;
 
-public class Player extends Movable implements RemotePlayer, Serializable {
+public class Player extends Movable implements Serializable {
 
     private String name;
 

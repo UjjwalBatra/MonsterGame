@@ -9,7 +9,6 @@ package controller;
 
 import model.*;
 
-import java.rmi.RMISecurityManager;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
@@ -22,9 +21,9 @@ public class Server {
         RemotePlayer player2 = new Player(8, 8, "Player2");
         RemotePlayer player3 = new Player(0, 8, "Player3");
         RemotePlayer player4 = new Player(8, 0, "Player4");
+        RemoteMap map = Map.getPlayingArea();
 
         Entity monster = Monster.getMonster();
-        Map.getPlayingArea().drawMap();
 
         Runnable runnable = () -> ((Monster) monster).start();
 
@@ -37,6 +36,12 @@ public class Server {
                 System.setSecurityManager(new SecurityManager());
             }
 
+            Map.getPlayingArea().drawMap();
+
+            RemoteMap mapStub = (RemoteMap) UnicastRemoteObject.exportObject(map);
+
+            Registry registry = LocateRegistry.createRegistry(3000);
+
             RemotePlayer stub = (RemotePlayer) UnicastRemoteObject.exportObject(player2);
             RemotePlayer stub2 = (RemotePlayer) UnicastRemoteObject.exportObject(player3);
             RemotePlayer stub3 = (RemotePlayer) UnicastRemoteObject.exportObject(player4);
@@ -44,6 +49,7 @@ public class Server {
             Registry registry2 = LocateRegistry.createRegistry(2098);
             Registry registry3 = LocateRegistry.createRegistry(2099);
 
+            registry.bind("Map", mapStub);
             registry1.bind("Player2", stub);
             registry2.bind("Player3", stub2);
             registry3.bind("Player4", stub3);

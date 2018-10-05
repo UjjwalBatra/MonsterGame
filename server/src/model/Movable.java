@@ -5,7 +5,7 @@ import exception.*;
 import java.io.Serializable;
 import java.rmi.RemoteException;
 
-public abstract class Movable extends Entity  {
+public abstract class Movable extends Entity implements RemotePlayer  {
 
     private Map map;
     private Entity entity[][];
@@ -15,7 +15,11 @@ public abstract class Movable extends Entity  {
         super(xCoordinate, yCoordinate);
 
         this.map = Map.getPlayingArea();
-        entity = this.map.getMap();
+        try {
+            entity = this.map.getMap();
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
 
 
         this.entity[xCoordinate][yCoordinate] = this;
@@ -105,8 +109,5 @@ public abstract class Movable extends Entity  {
         Thread.sleep(500);
     }
 
-    public Map getMap() throws RemoteException{
-        return this.map;
-    }
 
 }

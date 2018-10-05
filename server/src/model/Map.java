@@ -1,8 +1,8 @@
 package model;
 
-import java.io.Serializable;
+import java.rmi.RemoteException;
 
-public class Map implements Serializable {
+public class Map implements RemoteMap {
     private Entity map[][];
     private static final Map playingArea = new Map();
 
@@ -21,12 +21,14 @@ public class Map implements Serializable {
         }
     }
 
-    public Entity[][] getMap() {
+    @Override
+    public Entity[][] getMap() throws RemoteException {
         return map;
     }
 
     //printing current position of player/monster/map on console
-    public void drawMap() {
+    @Override
+    public void drawMap() throws RemoteException {
         for (int i = 0; i < map.length; i++) {
             for (int j = 0; j < map[i].length; j++) {
                 map[i][j].draw();

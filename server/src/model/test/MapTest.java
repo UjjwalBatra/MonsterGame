@@ -25,29 +25,35 @@ class MapTest {
 
     @Test
     public void checkPaths(){
-        for (int j = 0; j < map.getMap()[0].length; j++) {
+        try {
+            for (int j = 0; j < map.getMap()[0].length; j++) {
                 assertTrue(map.getMap()[0][j] instanceof Cell);
-        }
-        for (int j = 0; j < map.getMap()[4].length; j++) {
+            }
+            for (int j = 0; j < map.getMap()[4].length; j++) {
                 assertTrue(map.getMap()[4][j] instanceof Cell);
-        }
-        for (int j = 0; j < map.getMap()[8].length; j++) {
+            }
+            for (int j = 0; j < map.getMap()[8].length; j++) {
                 assertTrue(map.getMap()[8][j] instanceof Cell);
-        }
-        for (int i = 0; i < map.getMap().length; i++) {
+            }
+            for (int i = 0; i < map.getMap().length; i++) {
                 assertTrue(map.getMap()[i][0] instanceof Cell);
-        }
-        for (int i = 0; i < map.getMap().length; i++) {
+            }
+            for (int i = 0; i < map.getMap().length; i++) {
                 assertTrue(map.getMap()[i][4] instanceof Cell);
+            }
+            for (int i = 0; i < map.getMap().length; i++) {
+                assertTrue(map.getMap()[i][8] instanceof Cell);
+            }
+        } catch (Exception e ){
+            e.printStackTrace();
         }
-        for (int i = 0; i < map.getMap().length; i++) {
-            assertTrue(map.getMap()[i][8] instanceof Cell);
-        }
+
 
     }
 
     @Test
     public void checkWalls(){
+        try{
         for (int i = 1; i < 4; i++) {
             for (int j = 1; j < 4; j++) {
                 assertTrue(map.getMap()[i][8] instanceof Cell);
@@ -67,6 +73,9 @@ class MapTest {
             for (int j = 5; j < 8; j++) {
                 assertTrue(map.getMap()[i][8] instanceof Cell);
             }
+        }
+        } catch (Exception e ){
+            e.printStackTrace();
         }
     }
 

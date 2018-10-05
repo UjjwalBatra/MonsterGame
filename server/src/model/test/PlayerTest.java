@@ -17,6 +17,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.rmi.RemoteException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class PlayerTest {
@@ -31,7 +33,7 @@ class PlayerTest {
     }
 
     @Test
-    public void checkPlayerMovement(){
+    public void checkPlayerMovement() throws RemoteException {
 
         player.setxCoordinate(4);
         player.setyCoordinate(4);
@@ -71,7 +73,7 @@ class PlayerTest {
     }
 
     @Test
-    public void checkIfPlayerRunOutOfMap(){
+    public void checkIfPlayerRunOutOfMap() {
 
         assertThrows(ObjectOutOfMapException.class, () ->{
             player.move("left");
