@@ -4,13 +4,8 @@
     <list default="true" id="7bd1ab39-2dd4-4f2e-8e80-10e00bbc6863" name="Default Changelist" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/StartUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/StartUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controller/KeyPressAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/KeyPressAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controller/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controller/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/model/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/model/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Monster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/model/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Movable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/model/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/model/RemotePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/RemotePlayer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +35,7 @@
         <counts>
           <entry key="form" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="149" />
+          <entry key="java" value="151" />
           <entry key="policy" value="2" />
           <entry key="xml" value="1" />
         </counts>
@@ -49,7 +44,7 @@
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="2" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="149" />
+          <entry key="JAVA" value="151" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
         </counts>
@@ -57,7 +52,7 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7457" />
+          <entry key="JAVA" value="7462" />
           <entry key="PLAIN_TEXT" value="74" />
           <entry key="VTL" value="26" />
         </counts>
@@ -67,7 +62,7 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="ft" value="26" />
-          <entry key="java" value="7457" />
+          <entry key="java" value="7462" />
           <entry key="policy" value="53" />
           <entry key="txt" value="17" />
         </counts>
@@ -81,50 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/controller/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/model/Monster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/model/Wall.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/model/Cell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="336">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,41 +91,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/model/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
               <folding>
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="method#move#0;class#Movable#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/model/Entity.java">
+        <entry file="file://$PROJECT_DIR$/server/src/model/RemotePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/model/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,16 +184,16 @@
         <option value="$PROJECT_DIR$/server/server.policy" />
         <option value="$PROJECT_DIR$/client/client.policy" />
         <option value="$PROJECT_DIR$/server/src/model/Map.java" />
-        <option value="$PROJECT_DIR$/server/src/model/RemotePlayer.java" />
         <option value="$PROJECT_DIR$/server/src/exception/PlayerRunningOverPlayerException.java" />
         <option value="$PROJECT_DIR$/server/src/model/Player.java" />
         <option value="$PROJECT_DIR$/server/src/controller/KeyPressAction.java" />
         <option value="$PROJECT_DIR$/server/src/controller/Server.java" />
-        <option value="$PROJECT_DIR$/server/src/model/Movable.java" />
         <option value="$PROJECT_DIR$/server/src/model/Entity.java" />
         <option value="$PROJECT_DIR$/server/src/model/Monster.java" />
         <option value="$PROJECT_DIR$/server/src/model/Wall.java" />
         <option value="$PROJECT_DIR$/server/src/model/Cell.java" />
+        <option value="$PROJECT_DIR$/server/src/model/Movable.java" />
+        <option value="$PROJECT_DIR$/server/src/model/RemotePlayer.java" />
         <option value="$PROJECT_DIR$/client/src/StartUp.java" />
       </list>
     </option>
@@ -276,8 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,6 +261,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -585,7 +523,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103491000" />
+    <option name="totallyTimeSpent" value="103678000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,7 +538,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48979592" visible="true" weight="0.31318682" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48979592" visible="true" weight="0.23870574" />
       <window_info id="Structure" order="1" sideWeight="0.5102041" side_tool="true" weight="0.30952382" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -609,7 +547,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50714284" side_tool="true" weight="0.30586082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.33262032" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.33163264" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3867347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -799,16 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/RemotePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/controller/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -854,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/model/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -892,10 +813,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/RemotePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/Movable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="method#move#0;class#Movable#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/StartUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="336">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

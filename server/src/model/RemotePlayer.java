@@ -22,6 +22,4 @@ public interface RemotePlayer extends Remote {
     */
     public void move(String direction) throws RemoteException, GameException, InterruptedException, PlayerRunningOverPlayerException;
 
-    public Map getMap() throws RemoteException;
-
 }

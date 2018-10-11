@@ -105,8 +105,5 @@ public abstract class Movable extends Entity  {
         Thread.sleep(500);
     }
 
-    public Map getMap() throws RemoteException{
-        return this.map;
-    }
 
 }
