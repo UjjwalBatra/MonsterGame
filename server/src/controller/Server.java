@@ -13,12 +13,18 @@ import java.rmi.RMISecurityManager;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
+import javafx.application.Application;
+import javafx.stage.Stage;
 
-public class Server {
+public class Server extends Application {
 
+    public static Entity player1;
+    //private static Entity[] players = new Player[3];
     public static void main(String[] args) {
 
-        Entity player1 = new Player(0, 0, "Player1");
+        //Entity player1 = new Player(0, 0, "Player1");
+        player1 = new Player(0, 0, "Player1");
+
         RemotePlayer player2 = new Player(8, 8, "Player2");
         RemotePlayer player3 = new Player(0, 8, "Player3");
         RemotePlayer player4 = new Player(8, 0, "Player4");
@@ -30,7 +36,9 @@ public class Server {
 
         runnable.run();
 
-        new KeyPressAction((Movable) player1);
+        Application.launch(args);
+
+        //new KeyPressAction((Movable) player1);
 
         try {
             if (System.getSecurityManager() == null) {
@@ -56,4 +64,14 @@ public class Server {
 
     }
 
+    @Override
+    public void start(Stage primaryStage) throws Exception
+    {
+        KeyboardController key = new KeyboardController();
+        primaryStage.setTitle("Map Demo");
+        key.start();
+        key.getPlayer((Player) player1);
+        primaryStage.setScene(key.scene);
+        primaryStage.show();
+    }
 }
